@@ -1,0 +1,53 @@
+$white: #ffffff;
+$black: #000000;
+
+%img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.vct-master-wrapper {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+// Banner
+.vct-banner-wrapper {
+    position: relative;
+
+    .banner-img {
+        @extend %img;
+    }
+
+    .overlay-banner {
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        h1 {
+            font-family: 'Raleway';
+            font-weight: 900;
+            font-size: 130px;
+            line-height: 153px;
+            // text-align: center;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            color: $white;
+
+            span {
+                color: #EBFF6D;
+            }
+        }
+
+        p {
+            font-family: 'Raleway';
+            font-weight: normal;
+            font-size: 24px;
+            line-height: 28px;
+            letter-spacing: 0.05em;
+            color: $white;
+        }
+    }
+}

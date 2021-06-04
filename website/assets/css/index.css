@@ -1,0 +1,141 @@
+@font-face {
+  font-family: 'SVN-Gotham';
+  src: url("./fonts/SVN-GothamBold.otf");
+  font-style: normal;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'SVN-Gotham';
+  src: url("./fonts/SVN-GothamLight.otf");
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url("./fonts/Raleway-Black.ttf");
+  font-style: normal;
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url("./fonts/Raleway-Regular.ttf");
+  font-style: normal;
+  font-weight: normal;
+}
+
+.vct-nav .logo-group .logo, .vct-banner-wrapper .banner-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.no-padding {
+  padding-right: 0;
+  padding-left: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.vct-nav {
+  padding: 10px 15px;
+  background-color: #ffffff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.vct-nav .logo-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.vct-nav .logo-group .logo {
+  max-height: 50px;
+  width: auto;
+  padding: 0 15px;
+}
+
+.vct-nav .logo-group .logo.logo-right {
+  margin-top: 12px;
+}
+
+.vct-nav .vct-navbar {
+  padding-right: 15px;
+}
+
+.vct-nav .vct-navbar .navbar-nav .nav-item {
+  padding: 0 15px;
+}
+
+.vct-nav .vct-navbar .navbar-nav .nav-item .nav-link {
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #000000;
+  font-family: 'SVN-Gotham';
+  font-style: normal;
+  font-weight: 300;
+}
+
+.vct-nav .vct-navbar .navbar-nav .nav-item .nav-link.vct-pillNav {
+  border: 1px solid #000000;
+  border-radius: 15px;
+  padding: 6px 17px;
+}
+
+.vct-nav .vct-navbar .navbar-nav .nav-item.active .nav-link {
+  font-weight: bold;
+}
+
+.vct-nav .logo-group .logo, .vct-banner-wrapper .banner-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.vct-master-wrapper {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.vct-banner-wrapper {
+  position: relative;
+}
+
+.vct-banner-wrapper .overlay-banner {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.vct-banner-wrapper .overlay-banner h1 {
+  font-family: 'Raleway';
+  font-weight: 900;
+  font-size: 130px;
+  line-height: 153px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.vct-banner-wrapper .overlay-banner h1 span {
+  color: #EBFF6D;
+}
+
+.vct-banner-wrapper .overlay-banner p {
+  font-family: 'Raleway';
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+/*# sourceMappingURL=index.css.map */
