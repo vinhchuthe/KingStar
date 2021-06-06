@@ -94,6 +94,10 @@
   font-weight: bold;
 }
 
+.vct-footer {
+  background-color: #000000;
+}
+
 .vct-nav .logo-group .logo, .vct-banner-wrapper .banner-img {
   width: 100%;
   height: auto;
