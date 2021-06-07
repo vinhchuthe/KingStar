@@ -1,0 +1,26 @@
+$white: #ffffff;
+$black: #000000;
+
+%img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+#content {
+
+    // Banner
+    .vct-banner-wrapper {
+        padding: 150px 0;
+        background-color: $white;
+
+        &::before {
+            display: none;
+        }
+
+        &::after {
+            display: none;
+        }
+    }
+
+}

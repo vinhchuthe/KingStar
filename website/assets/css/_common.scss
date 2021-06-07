@@ -1,5 +1,6 @@
 $white: #ffffff;
 $black: #000000;
+$gray: #EAEAEA;
 
 %img {
     width: 100%;
@@ -24,6 +25,7 @@ $black: #000000;
     left: 0;
     width: 100%;
     z-index: 10;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
 
     .logo-group {
         display: flex;
@@ -78,4 +80,93 @@ $black: #000000;
 // -------------- Footer ---------------
 .vct-footer {
     background-color: $black;
+    padding: 100px 0 70px;
+
+    .vct-footer-group {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .footer-content-left {
+            flex: 0 0 40%;
+
+            .footer-name {
+                font-family: 'Raleway';
+                font-style: normal;
+                font-weight: bold;
+                font-size: 30px;
+                line-height: 35px;
+                letter-spacing: 0.05em;
+                text-transform: uppercase;
+                color: $white;
+                margin-bottom: 20px;
+            }
+
+            .footer-mail {
+                font-family: 'Raleway';
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 21px;
+                letter-spacing: 0.05em;
+                color: $white;
+                margin-bottom: 20px;
+                display: inline-block;
+            }
+
+            .footer-location {
+                font-family: 'Raleway';
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 21px;
+                letter-spacing: 0.05em;
+                color: $white;
+                margin-bottom: 0;
+            }
+        }
+
+        .footer-content-right {
+            flex: 0 0 25%;
+
+            .footer-logo {
+                max-width: 200px;
+                margin: 0 auto;
+                @extend %img;
+            }
+        }
+    }
+}
+
+// --------------- Block ----------------
+.vct-block {
+    position: relative;
+    width: 100%;
+
+    .block-content-title {
+        position: relative;
+
+        h4 {
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 40px;
+            line-height: 56px;
+            text-align: center;
+            letter-spacing: 0.05em;
+        }
+    }
+
+    .content-group {
+        display: flex;
+        width: 100%;
+    }
+
+    &.block-gray {
+        background-color: $gray;
+    }
+
+    &.block-white {
+        background-color: $white;
+    }
 }
