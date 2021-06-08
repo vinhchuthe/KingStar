@@ -170,3 +170,28 @@ $gray: #EAEAEA;
         background-color: $white;
     }
 }
+
+
+// Responsive
+
+// Large devices (desktops, less than 1300px)
+@media (max-width: 1300px) {
+    .vct-nav {
+        
+    }
+    .vct-block {
+        .block-content-title {
+            position: relative;
+
+            h4 {
+                font-family: 'Raleway';
+                font-style: normal;
+                font-weight: 900;
+                font-size: 35px;
+                line-height: 45px;
+                text-align: center;
+                letter-spacing: 0.05em;
+            }
+        }
+    }
+}

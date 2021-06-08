@@ -8,6 +8,7 @@
     <title>King Star Network</title>
     <link rel="stylesheet" href="./assets/css/bootstrap.css">
     <link rel="stylesheet" href="./assets/css/swiper-bundle.css">
+    <link rel="stylesheet" href="./assets/css/aos.css">
     <link rel="stylesheet" href="./assets/css/index.css">
 </head>
 
@@ -40,15 +41,16 @@
         </nav>
 
         <!-- Content -->
-        <div class="vct-content-wrapper">
+        <div class="vct-content-wrapper" id="home">
             <div class="container-fluid no-padding">
 
                 <!-- Banner -->
                 <div class="vct-banner-wrapper">
                     <img class="banner-img" src="./assets/image/banner.png" alt="banner-img">
                     <div class="overlay-banner">
-                        <h1>KING<span>STAR</span> <br /> NETWORK </h1>
-                        <p>
+                        <h1 data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">KING<span>STAR</span>
+                            <br /> NETWORK </h1>
+                        <p data-aos="zoom-in" data-aos-offset="-100" data-aos-duration="1000">
                             KingStar Network sở hữu một hệ sinh thái phong phú các nhà sáng tạo nội dung đến từ nhiều
                             nhóm đối tượng như người nổi tiếng, chuyên gia… giúp mang đến giải pháp truyền thông phù hợp
                             và hiệu quả cho đa dạng ngành hàng
@@ -60,7 +62,8 @@
                 <div class="vct-block vct-block-1 block-gray">
                     <div class="container">
                         <div class="vct-block-content">
-                            <div class="block-content-title">
+                            <div class="block-content-title" data-aos="fade-up" data-aos-offset="100"
+                                data-aos-duration="1000">
                                 <h4>Hệ thống Kingstar Network</h4>
                             </div>
                             <div class="block-content-body">
@@ -507,8 +510,10 @@
     <!-- JS Libary -->
     <script src="./js/jquery.min.js"></script>
     <script src="./js/bootstrap.js"></script>
+    <script src="./js/aos.js"></script>
     <script src="./js/swiper-bundle.js"></script>
     <script>
+        AOS.init();
         const swiper = new Swiper('.swiper-container', {
             // Optional parameters
             loop: true,

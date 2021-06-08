@@ -723,3 +723,47 @@ $black: #000000;
         }
     }
 }
+
+// Responsive
+
+// Large devices (desktops, less than 1300px)
+@media (max-width: 1300px) {
+    #home {
+        .vct-banner-wrapper {
+            .overlay-banner {
+                h1 {
+                    font-size: 100px;
+                    line-height: 120px;
+                }
+
+                p {
+                    font-size: 16px;
+                    line-height: 26px;
+                }
+            }
+        }
+
+        .vct-block-1 {
+            .block-content-body {
+                
+            }
+        }
+    }
+}
+
+// Extra small devices (portrait phones, less than 576px)
+// @media (max-width: 767.98px) {
+//     #home {
+//         .vct-banner-wrapper {
+
+//             &::after {
+//                 display: none;
+//             }
+
+//             .banner-img {
+//                 height: 75vh;
+//                 width: auto;
+//             }
+//         }
+//     }
+// }
