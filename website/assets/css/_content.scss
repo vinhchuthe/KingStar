@@ -312,3 +312,41 @@ $black: #000000;
         }
     }
 }
+
+// Responsive
+
+// Large devices (desktops, less than 1300px)
+@media (max-width: 1300px) {
+    #content {
+        .vct-banner-wrapper {
+            .overlay-banner {
+                h1 {
+                    font-size: 65px;
+                    line-height: 75px;
+                }
+
+                .banner-light {
+                    font-size: 32px;
+                    line-height: 38px;
+
+                    span {
+                        font-size: 65px;
+                        line-height: 75px;
+                    }
+                }
+
+                .banner-list {
+                    .banner-item-light {
+                        font-size: 22px;
+                        line-height: 25px;
+                    }
+
+                    .banner-item-bold {
+                        font-size: 28px;
+                        line-height: 36px;
+                    }
+                }
+            }
+        }
+    }
+}

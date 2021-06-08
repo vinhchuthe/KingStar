@@ -8,6 +8,7 @@
     <title>King Star Network</title>
     <link rel="stylesheet" href="./assets/css/bootstrap.css">
     <link rel="stylesheet" href="./assets/css/swiper-bundle.css">
+    <link rel="stylesheet" href="./assets/css/aos.css">
     <link rel="stylesheet" href="./assets/css/index.css">
 </head>
 
@@ -45,15 +46,16 @@
                 <div class="vct-banner-wrapper">
                     <img class="banner-img" src="./assets/image/content/content-banner.png" alt="banner-img">
                     <div class="overlay-banner">
-                        <h1>KING<span>STAR</span> <br /> NETWORK <br /> đa dạng </h1>
-                        <p class="banner-light">
+                        <h1 data-aos="fade-up" data-aos-duration="1000">KING<span>STAR</span>
+                            <br /> NETWORK <br /> đa dạng </h1>
+                        <p class="banner-light" data-aos="fade-right" data-aos-offset="-100" data-aos-duration="1000">
                             với hơn
                             <br />
                             <span>1000</span>
                             <br />
                             Content Creators
                         </p>
-                        <ul class="banner-list">
+                        <ul class="banner-list" data-aos="fade-right" data-aos-offset="-200" data-aos-duration="1000">
                             <li class="banner-item-light">bao gồm:</li>
                             <li class="banner-item-bold">KOLs</li>
                             <li class="banner-item-bold">INFLUENCERS</li>
@@ -71,7 +73,7 @@
                 <div class="vct-block vct-content-block-1 block-gray">
                     <div class="container">
                         <div class="vct-block-content">
-                            <div class="block-content-title">
+                            <div class="block-content-title" data-aos="fade-up" data-aos-duration="1000">
                                 <h4>
                                     Những cơ hội gì khi tham gia <br />
                                     cộng đồng Content Creator của Admicro
@@ -83,11 +85,13 @@
                                         Thỏa sức sáng tạo nội dung với hơn <br /> <span>6000</span> khách hàng của
                                         Admicro
                                     </p>
-                                    <img src="./assets/image/Group-icon.png" alt="">
+                                    <img src="./assets/image/Group-icon.png" alt="" data-aos="zoom-in"
+                                        data-aos-duration="1000">
                                     <p>
                                         Hệ thống fanpage VCCorp tạo độ phủ, <br /> giúp lan tỏa hình ảnh
                                     </p>
-                                    <img src="./assets/image/content/group-icon2.png" alt="">
+                                    <img src="./assets/image/content/group-icon2.png" alt="" data-aos="zoom-in"
+                                        data-aos-duration="1000">
                                 </div>
                             </div>
                         </div>
@@ -97,7 +101,7 @@
                 <div class="vct-block vct-content-block-2 block-white">
                     <div class="container">
                         <div class="vct-block-content">
-                            <div class="block-content-title">
+                            <div class="block-content-title" data-aos="fade-up" data-aos-duration="1000">
                                 <h4>
                                     Quy trình làm việc dễ <br /> dàng, hiệu quả
                                 </h4>
@@ -153,7 +157,7 @@
                 <div class="vct-block vct-content-block-3 block-gallery">
                     <div class="vct-gallery-content">
                         <div class="vct-gallery-title">
-                            <h4>
+                            <h4 data-aos="fade-up" data-aos-duration="1000">
                                 Top Content Creator <br />
                                 <span>hợp tác với Admicro</span>
                             </h4>
@@ -201,7 +205,11 @@
         <!-- JS Libary -->
         <script src="./js/jquery.min.js"></script>
         <script src="./js/bootstrap.js"></script>
+        <script src="./js/aos.js"></script>
         <script src="./js/swiper-bundle.js"></script>
+        <script>
+            AOS.init();
+        </script>
 </body>
 
 </html>
