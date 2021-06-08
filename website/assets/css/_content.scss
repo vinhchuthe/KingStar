@@ -7,6 +7,15 @@ $black: #000000;
     display: block;
 }
 
+%deco {
+    content: '';
+    position: absolute;
+    z-index: 1;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    transform: translateY(-50%);
+}
+
 #content {
 
     // Banner
@@ -146,6 +155,25 @@ $black: #000000;
                     }
                 }
             }
+        }
+
+        &::before {
+            @extend %deco;
+            top: 5%;
+            left: 0;
+            width: 12%;
+            height: 40%;
+
+            background-image: url('../image/deco-group9.png');
+        }
+
+        &::after {
+            @extend %deco;
+            top: 5%;
+            right: 0;
+            width: 10%;
+            height: 35%;
+            background-image: url('../image/deco-group10.png');
         }
     }
 
@@ -344,6 +372,115 @@ $black: #000000;
                     .banner-item-bold {
                         font-size: 28px;
                         line-height: 36px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Large devices (tablet, less than 1200px)
+@media (max-width: 1199.98px) {
+    #content {
+        .vct-banner-wrapper {
+            .overlay-banner {}
+        }
+    }
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+    #content {
+        .vct-banner-wrapper {
+            .overlay-banner {
+                left: 5%;
+
+                h1 {
+                    font-size: 45px;
+                    line-height: 55px;
+                    margin-bottom: 15px;
+                }
+
+                .banner-light {
+                    font-size: 22px;
+                    line-height: 28px;
+                    margin-bottom: 20px;
+
+                    span {
+                        font-size: 45px;
+                        line-height: 55px;
+                    }
+                }
+
+                .banner-list {
+                    .banner-item-light {
+                        font-size: 18px;
+                        line-height: 21px;
+                        margin-bottom: 10px;
+                    }
+
+                    .banner-item-bold {
+                        font-size: 24px;
+                        line-height: 28px;
+                    }
+                }
+            }
+
+            .banner-cta {
+                .banner-link {
+                    font-size: 18px;
+                    line-height: 27px;
+                }
+            }
+        }
+
+        .vct-content-block-1 {
+
+            &::before,
+            &::after {
+                display: none;
+            }
+
+            .vct-block-content {
+                .block-content-title {
+                    margin-bottom: 50px;
+                }
+
+                .block-content-body {
+                    .brand-group {
+
+                        p {
+                            font-size: 26px;
+                            line-height: 29px;
+                            margin-bottom: 50px;
+                        }
+
+                    }
+                }
+            }
+        }
+
+        .vct-content-block-2 {
+            .vct-block-content {
+                .block-content-title {
+                    margin-bottom: 50px;
+                }
+
+                .block-content-body {
+                    .content-group {
+                        margin-bottom: 70px;
+
+                        .content-group-item {
+                            .item-box {
+                                padding: 10px;
+                                height: 200px;
+
+                                p {
+                                    font-size: 14px;
+                                    line-height: 20px;
+                                }
+                            }
+                        }
                     }
                 }
             }

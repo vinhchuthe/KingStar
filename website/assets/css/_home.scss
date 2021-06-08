@@ -246,6 +246,10 @@ $black: #000000;
         position: relative;
 
         .vct-slider {
+            .swiper-slide {
+                padding: 0 10px;
+            }
+
             .slider-group {
                 position: relative;
                 width: 100%;
@@ -662,7 +666,7 @@ $black: #000000;
                             font-family: 'Raleway';
                             font-style: normal;
                             font-weight: normal;
-                            font-size: 15px;
+                            font-size: 18px;
                             line-height: 20px;
                             letter-spacing: 0.05em;
                             color: $black;
@@ -760,6 +764,132 @@ $black: #000000;
                     font-size: 16px;
                     line-height: 26px;
                 }
+            }
+        }
+    }
+}
+
+// Large devices (tablet, less than 1200px)
+@media (max-width: 1199.98px) {
+    #home {
+        .vct-banner-wrapper {
+            margin-top: 90px;
+
+            .overlay-banner {
+                h1 {
+                    font-size: 70px;
+                    line-height: 80px;
+                }
+
+                p {
+                    font-size: 14px;
+                    line-height: 22px;
+                }
+            }
+        }
+
+        .vct-block-1 {
+            &::before {
+                height: 25%;
+            }
+
+            &::after {
+                top: 85%;
+                right: 0;
+                width: 13%;
+                height: 25%;
+            }
+
+            .block-content-body {
+                .content-group {
+                    flex-wrap: wrap;
+
+                    .content-group-item {
+                        flex: 0 0 48%;
+                        margin-bottom: 25px;
+                    }
+                }
+            }
+        }
+
+        .vct-block-2 {
+            .block-content-body {
+                .content-group {
+                    .content-group-item {
+                        .group-item-body {
+                            h5 {
+                                font-size: 24px;
+                                line-height: 26px;
+                            }
+
+                            p {
+                                font-size: 14px;
+                                line-height: 18px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .vct-block-3 {
+            .vct-block-content {
+                .block-content-body {
+                    .content-group {
+                        width: 100%;
+
+                        .content-group-item {
+                            .item-box {
+                                height: 220px;
+
+                                p {
+                                    font-size: 16px;
+                                    line-height: 22px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .vct-block-4 {
+            padding: 130px 0 100px;
+        }
+
+        .vct-block-5 {
+            .vct-block-content {
+                .block-content-body {
+                    .flex-group {
+                        .flex-item {
+                            .div-item-box {
+                                padding: 60px 40px 40px;
+
+                                .num {
+                                    font-size: 50px;
+                                    line-height: 60px;
+                                }
+
+                                .text {
+                                    font-size: 20px;
+                                    line-height: 28px;
+                                }
+                            }
+                        }
+
+                        &.gr-b2 {
+                            .flex-left {
+                                margin-left: 5%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .vct-block-6 {
+            .block-content-form {
+                width: 100%;
             }
         }
     }
