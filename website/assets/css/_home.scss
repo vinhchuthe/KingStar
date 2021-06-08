@@ -645,6 +645,8 @@ $black: #000000;
 
             .form-body {
                 form {
+                    text-align: center;
+
                     .form-group {
                         position: relative;
                         margin-bottom: 40px;
@@ -717,6 +719,24 @@ $black: #000000;
                                 box-shadow: none;
                             }
                         }
+
+                    }
+
+                    .form-cta {
+                        background: linear-gradient(252.29deg, #EBFF6D 8.3%, #5DCAF3 43.65%), #02ACED;
+                        display: inline-block;
+                        padding: 15px 25px;
+                        border-radius: 25px;
+                        margin: 0 auto;
+                        font-family: 'Raleway';
+                        font-style: normal;
+                        font-weight: bold;
+                        color: $black;
+                        font-size: 16px;
+
+                        &:hover {
+                            text-decoration: none;
+                        }
                     }
                 }
             }
@@ -744,9 +764,7 @@ $black: #000000;
         }
 
         .vct-block-1 {
-            .block-content-body {
-                
-            }
+            .block-content-body {}
         }
     }
 }

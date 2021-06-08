@@ -177,7 +177,14 @@ $gray: #EAEAEA;
 // Large devices (desktops, less than 1300px)
 @media (max-width: 1300px) {
     .vct-nav {
-        
+        .vct-navbar {
+            .nav-item {
+                .nav-link {
+                    font-size: 16px !important;
+                    line-height: 16px !important;
+                }
+            }
+        }
     }
     .vct-block {
         .block-content-title {
