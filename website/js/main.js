@@ -72,4 +72,8 @@ $(document).ready(function () {
     $("#join-link").click(function () {
         window.location.replace("./index.html#join-form");
     });
+
+    $("#fixed-cta").click(function () {
+        window.location.replace("./index.html#join-form");
+    });
 });

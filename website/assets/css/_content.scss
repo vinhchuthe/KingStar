@@ -112,6 +112,7 @@ $black: #000000;
                 text-align: center;
                 letter-spacing: 0.05em;
                 color: $white;
+                text-transform: uppercase;
 
                 &:hover {
                     text-decoration: none;
@@ -593,6 +594,13 @@ $black: #000000;
                         }
                     }
                 }
+            }
+
+            &::before {
+                top: 0%;
+                left: -5%;
+                width: 24%;
+                height: 34%;
             }
         }
 

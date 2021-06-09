@@ -25,7 +25,6 @@ $gray: #EAEAEA;
 }
 
 // ------------- header --------------
-
 .vct-nav {
     padding: 10px 15px;
     background-color: $white;
@@ -191,6 +190,36 @@ $gray: #EAEAEA;
 
     &.block-white {
         background-color: $white;
+    }
+}
+
+// --------------- CTA -----------------
+.vct-fixed-cta {
+    position: fixed;
+    bottom: 15px;
+    right: 25px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(242.08deg, #EBFF6D 19.5%, #5DCAF3 52.12%), #02ACED;
+    z-index: 10;
+    cursor: pointer;
+
+    span {
+        font-family: 'Raleway';
+        cursor: pointer;
+        color: $white;
+        font-style: normal;
+        font-weight: bold;
+        display: block;
+        padding: 0 10px;
+        font-size: 18px;
+        list-style: 1;
+        text-shadow: 2px 2px 2px rgba(150, 150, 150, 1);
+        text-transform: uppercase;
     }
 }
 
