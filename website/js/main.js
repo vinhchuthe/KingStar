@@ -1,7 +1,7 @@
 AOS.init();
 
 // Home
-const swiper = new Swiper('.swiper-container', {
+const swiper1 = new Swiper('#b2-slider', {
     // Optional parameters
     loop: true,
 
@@ -9,4 +9,21 @@ const swiper = new Swiper('.swiper-container', {
     pagination: {
         el: '.swiper-pagination',
     },
+});
+
+const swiper2 = new Swiper('#b4-slider', {
+    // Optional parameters
+    loop: true,
+    slidesPerView: 4,
+    spaceBetween: 30,
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+    },
+
+    // // Navigation arrows
+    // navigation: {
+    //     nextEl: '.swiper-button-next',
+    //     prevEl: '.swiper-button-prev',
+    // },
 });

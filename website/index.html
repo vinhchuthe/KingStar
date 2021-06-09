@@ -181,7 +181,7 @@
                         <div class="row justify-content-center">
                             <div class="col-lg-10 col-md-10">
                                 <!-- Slider main container -->
-                                <div class="swiper-container vct-slider">
+                                <div class="swiper-container vct-slider" id="b2-slider">
                                     <!-- Additional required wrapper -->
                                     <div class="swiper-wrapper">
                                         <!-- Slides -->
@@ -388,8 +388,26 @@
                 <div class="vct-block vct-block-4 block-white">
                     <div class="container">
                         <div class="block-content-body">
-                            <div class="content-img-big">
+                            <div class="content-img-big pc-item">
                                 <img src="./assets/image/Group-icon.png" alt="">
+                            </div>
+                            <div class="brand-icon-group mb-item">
+                                <!-- Slider main container -->
+                                <div class="swiper-container vct-icon-group" id="b4-slider">
+                                    <!-- Additional required wrapper -->
+                                    <div class="swiper-wrapper">
+                                        <!-- Slides -->
+                                        <div class="swiper-slide"><img src="./assets/image/icon1.png" alt=""></div>
+                                        <div class="swiper-slide"><img src="./assets/image/icon2.png" alt=""></div>
+                                        <div class="swiper-slide"><img src="./assets/image/icon3.png" alt=""></div>
+                                        <div class="swiper-slide"><img src="./assets/image/icon4.png" alt=""></div>
+                                        <div class="swiper-slide"><img src="./assets/image/icon5.png" alt=""></div>
+                                    </div>
+
+                                    <!-- If we need navigation buttons -->
+                                    <!-- <div class="swiper-button-prev"></div>
+                                    <div class="swiper-button-next"></div> -->
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -450,24 +468,24 @@
                             <div class="form-body">
                                 <form>
                                     <div class="form-group">
-                                        <label for="exampleInputEmail1">Họ và tên</label>
-                                        <input type="text" class="form-control" id="exampleInputEmail1">
+                                        <label for="InputName">Họ và tên</label>
+                                        <input type="text" class="form-control" id="InputName">
                                     </div>
                                     <div class="form-group">
-                                        <label for="exampleInputPassword1">Số điện thoại</label>
-                                        <input type="number" class="form-control" id="exampleInputPassword1">
+                                        <label for="InputPhone">Số điện thoại</label>
+                                        <input type="number" class="form-control" id="InputPhone">
                                     </div>
                                     <div class="form-group">
-                                        <label for="exampleInputPassword1">Email</label>
-                                        <input type="email" class="form-control" id="exampleInputPassword1">
+                                        <label for="InputEmail">Email</label>
+                                        <input type="email" class="form-control" id="InputEmail">
                                     </div>
                                     <div class="form-group">
-                                        <label for="exampleInputPassword1">Link social</label>
-                                        <input type="text" class="form-control" id="exampleInputPassword1">
+                                        <label for="InputSocial">Link social</label>
+                                        <input type="text" class="form-control" id="InputSocial">
                                     </div>
                                     <div class="form-group">
-                                        <label for="exampleFormControlSelect1">Lĩnh vực hoạt động</label>
-                                        <select class="form-control" id="exampleFormControlSelect1">
+                                        <label for="FormControlSelect">Lĩnh vực hoạt động</label>
+                                        <select class="form-control" id="FormControlSelect">
                                             <option>Model</option>
                                             <option>Nhà văn</option>
                                             <option>Ca sỹ</option>
@@ -481,8 +499,8 @@
                                         </select>
                                     </div>
                                     <div class="form-group">
-                                        <label for="exampleFormControlTextarea1">Mô tả ngắn về tài năng</label>
-                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                        <label for="FormControlTextarea">Mô tả ngắn về tài năng</label>
+                                        <textarea class="form-control" id="FormControlTextarea" rows="3"
                                             placeholder="Tối đa 500 kí tự"></textarea>
                                     </div>
                                     <input class="form-cta" type="submit" value="Gửi thông tin">

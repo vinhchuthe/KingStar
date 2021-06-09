@@ -1267,7 +1267,133 @@
     bottom: 0;
   }
   #home .vct-block-3 {
-    padding: 50px 0 0;
+    padding: 50px 0 30px;
+  }
+  #home .vct-block-3 .vct-block-content .block-content-body .content-group {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #home .vct-block-3 .vct-block-content .block-content-body .content-group .content-group-item {
+    margin: 0;
+  }
+  #home .vct-block-3 .vct-block-content .block-content-body .content-group .content-group-item .item-box {
+    background-color: transparent;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: auto;
+    padding: 0px 15px;
+    margin-bottom: 20px;
+  }
+  #home .vct-block-3 .vct-block-content .block-content-body .content-group .content-group-item .item-box .box-num {
+    margin-bottom: 0;
+    margin-right: 10px;
+  }
+  #home .vct-block-3 .vct-block-content .block-content-body .content-group .content-group-item .item-box p {
+    margin-bottom: 0;
+    margin-left: 10px;
+  }
+  #home .vct-block-3 .vct-block-content .block-content-body .content-group .content-group-item:nth-child(2) .item-box {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  #home .vct-block-4 {
+    margin-top: 0;
+    padding: 50px 0;
+  }
+  #home .vct-block-4 .block-content-body .brand-icon-group .vct-icon-group .swiper-slide img {
+    width: auto;
+    height: 60px;
+    display: block;
+  }
+  #home .vct-block-5 {
+    padding: 50px 0;
+  }
+  #home .vct-block-5.block-gray {
+    background-color: #ffffff;
+  }
+  #home .vct-block-5::before, #home .vct-block-5::after {
+    display: none;
+  }
+  #home .vct-block-5 .vct-block-content .block-content-title {
+    margin-bottom: 40px;
+  }
+  #home .vct-block-5 .vct-block-content .block-content-body .flex-group {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 40px;
+  }
+  #home .vct-block-5 .vct-block-content .block-content-body .flex-group .flex-item {
+    margin-bottom: 0;
+  }
+  #home .vct-block-5 .vct-block-content .block-content-body .flex-group .flex-item .div-item-box {
+    text-align: center;
+    padding: 40px;
+  }
+  #home .vct-block-5 .vct-block-content .block-content-body .flex-group .flex-item .div-item-box .num {
+    font-size: 36px;
+    line-height: 42px;
+  }
+  #home .vct-block-5 .vct-block-content .block-content-body .flex-group .flex-item .div-item-box .text {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  #home .vct-block-5 .vct-block-content .block-content-body .flex-group.gr-b1 .flex-right {
+    margin-left: 0;
+    width: 80%;
+    margin-top: -10%;
+  }
+  #home .vct-block-5 .vct-block-content .block-content-body .flex-group.gr-b1 .flex-right .div-item-box {
+    text-align: center;
+    padding: 40px;
+  }
+  #home .vct-block-5 .vct-block-content .block-content-body .flex-group.gr-b1 .flex-right .div-item-box .num {
+    font-size: 36px;
+    line-height: 42px;
+  }
+  #home .vct-block-5 .vct-block-content .block-content-body .flex-group.gr-b1 .flex-right .div-item-box .text {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  #home .vct-block-5 .vct-block-content .block-content-body .flex-group.gr-b2 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  #home .vct-block-5 .vct-block-content .block-content-body .flex-group.gr-b2::before, #home .vct-block-5 .vct-block-content .block-content-body .flex-group.gr-b2::after {
+    display: none;
+  }
+  #home .vct-block-5 .vct-block-content .block-content-body .flex-group.gr-b2 .flex-left {
+    margin-left: 0;
+    width: 80%;
+    margin-top: -10%;
+  }
+  #home .vct-block-5 .vct-block-content .block-content-body .flex-group.gr-b2 .flex-right {
+    margin-left: 0;
+  }
+  #home .vct-block-6 {
+    padding: 70px 0;
+  }
+  #home .vct-block-6.block-bg {
+    background-size: cover;
+    background-position: center;
+  }
+  #home .vct-block-6 .block-content-form {
+    padding: 40px 25px;
+  }
+  #home .vct-block-6 .block-content-form .form-title h4 {
+    font-size: 18px;
+    line-height: 21px;
+  }
+  #home .vct-block-6 .block-content-form .form-body form .form-group label,
+  #home .vct-block-6 .block-content-form .form-body form .form-group input {
+    font-size: 14px;
+    line-height: 16px;
   }
 }
 
