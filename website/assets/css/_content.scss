@@ -487,3 +487,165 @@ $black: #000000;
         }
     }
 }
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 767.98px) {
+    #content {
+        .vct-banner-wrapper {
+            padding: 50px 0;
+
+            .overlay-banner {
+                position: relative;
+                top: 0;
+                transform: translateY(0);
+                max-width: unset;
+                left: 0;
+
+                h1 {
+                    text-align: center;
+                }
+
+                .banner-light {
+                    font-size: 14px;
+                    line-height: 18px;
+                    width: 100%;
+                    text-align: center;
+                    margin-bottom: 0;
+
+                    span {
+                        display: inline-block;
+                        padding: 0 3px;
+                        font-size: 35px;
+                        line-height: 45px;
+                    }
+                }
+
+                .banner-list {
+                    .banner-item-light {
+                        text-align: center;
+                        margin-bottom: 30px;
+                        font-size: 14px;
+                        line-height: 18px;
+                    }
+
+                    .banner-item-bold {
+                        font-size: 14px;
+                        line-height: 18px;
+                        text-align: center;
+                        width: 50%;
+                        float: left;
+                        // border: 1px solid #5DCAF3;
+                        padding: 10px 10px;
+                        margin: 0 0 15px;
+                        border-radius: 20px;
+                    }
+                }
+            }
+
+            .banner-cta {
+                position: relative;
+                transform: translateX(0);
+                bottom: 0;
+                left: 0;
+                clear: both;
+                text-align: center;
+
+                .banner-link {
+                    font-size: 16px;
+                    line-height: 21px;
+                }
+            }
+        }
+
+        .vct-content-block-1 {
+            padding: 70px 0 30px;
+
+            .vct-block-content {
+                .block-content-title {
+                    h4 {
+                        font-size: 18px;
+                        line-height: 21px;
+                    }
+                }
+
+                .block-content-body {
+                    .brand-group {
+                        p {
+                            font-size: 16px;
+                            line-height: 18px;
+                            margin-bottom: 30px;
+                        }
+
+                        .content-group-icon {
+                            margin-bottom: 30px;
+
+                            .vct-icon-group {
+                                .swiper-wrapper {
+                                    align-items: center;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .vct-content-block-2 {
+            padding: 50px 0;
+
+            .vct-block-content {
+                .block-content-title {
+                    margin-bottom: 40px;
+                }
+
+                .block-content-body {
+                    .content-group {
+                        flex-direction: column;
+                        margin-bottom: 0;
+
+                        .content-group-item {
+                            margin: 0;
+
+                            .item-box {
+                                background-color: transparent;
+                                display: flex;
+                                height: auto;
+                                // padding: 0px 15px;
+                                margin-bottom: 20px;
+
+                                .box-num {
+                                    margin-bottom: 0;
+                                    margin-right: 10px;
+                                }
+
+                                p {
+                                    margin-bottom: 0;
+                                    margin-left: 10px;
+                                    font-size: 14px;
+                                    line-height: 18px;
+                                }
+                            }
+                        }
+                    }
+
+                    .content-bar {
+                        display: none;
+                    }
+                }
+            }
+        }
+
+        .vct-content-block-3 {
+            .vct-gallery-content {
+                .vct-gallery-title {
+                    padding: 35px 0;
+
+                    h4 {
+                        font-size: 35px;
+                        line-height: 45px;
+                    }
+                }
+            }
+        }
+    }
+}
