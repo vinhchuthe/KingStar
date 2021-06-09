@@ -68,4 +68,8 @@ $(document).ready(function () {
             scrollTop: $(document).height()
         }, 1000);
     });
+
+    $("#join-link").click(function () {
+        window.location.replace("./index.html#join-form");
+    });
 });
