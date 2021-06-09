@@ -1113,8 +1113,24 @@
   #home .vct-banner-wrapper {
     margin-top: 0;
   }
-  #home .vct-banner-wrapper::before, #home .vct-banner-wrapper::after {
-    display: none;
+  #home .vct-banner-wrapper::before {
+    content: '';
+    position: absolute;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    top: 43%;
+    left: 0;
+    width: 20%;
+    height: 20%;
+    background-image: url("../image/deco-group9.png");
+  }
+  #home .vct-banner-wrapper::after {
+    top: 40%;
+    right: 0;
+    width: 20%;
+    height: 23%;
   }
   #home .vct-banner-wrapper .overlay-banner {
     top: 0;
@@ -1147,8 +1163,15 @@
   #home .vct-block-1 {
     padding: 50px 0;
   }
-  #home .vct-block-1::before, #home .vct-block-1::after {
+  #home .vct-block-1::before {
     display: none;
+  }
+  #home .vct-block-1::after {
+    top: 0;
+    right: -5%;
+    width: 17%;
+    height: 10%;
+    background-image: url("../image/deco-group8.png");
   }
   #home .vct-block-1 .container {
     padding: 0;
@@ -1224,6 +1247,32 @@
   #home .vct-block-2 .vct-block2-top .vct-block-content .block-content-body .content-group .content-group-item .group-item-body p {
     font-size: 14px;
     line-height: 16px;
+  }
+  #home .vct-block-2 .vct-block2-top::before {
+    content: '';
+    position: absolute;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    top: 5%;
+    left: -3%;
+    width: 25%;
+    height: 10%;
+    background-image: url("../image/deco-group9.png");
+  }
+  #home .vct-block-2 .vct-block2-top::after {
+    content: '';
+    position: absolute;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    top: 10%;
+    right: -10%;
+    width: 25%;
+    height: 5%;
+    background-image: url("../image/deco-group8.png");
   }
   #home .vct-block-2 .vct-block2-bot::before, #home .vct-block-2 .vct-block2-bot::after {
     display: none;
@@ -1317,8 +1366,18 @@
   #home .vct-block-5.block-gray {
     background-color: #ffffff;
   }
-  #home .vct-block-5::before, #home .vct-block-5::after {
-    display: none;
+  #home .vct-block-5::before {
+    top: 40%;
+    left: 0;
+    width: 20%;
+    height: 15%;
+    z-index: 3;
+  }
+  #home .vct-block-5::after {
+    top: 55%;
+    right: 0;
+    width: 15%;
+    height: 15%;
   }
   #home .vct-block-5 .vct-block-content .block-content-title {
     margin-bottom: 40px;
@@ -1781,7 +1840,13 @@
     font-size: 18px;
     line-height: 27px;
   }
-  #content .vct-content-block-1::before, #content .vct-content-block-1::after {
+  #content .vct-content-block-1::before {
+    top: 5%;
+    left: -3%;
+    width: 25%;
+    height: 35%;
+  }
+  #content .vct-content-block-1::after {
     display: none;
   }
   #content .vct-content-block-1 .vct-block-content .block-content-title {

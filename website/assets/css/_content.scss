@@ -436,7 +436,13 @@ $black: #000000;
 
         .vct-content-block-1 {
 
-            &::before,
+            &::before {
+                top: 5%;
+                left: -3%;
+                width: 25%;
+                height: 35%;
+            }
+
             &::after {
                 display: none;
             }

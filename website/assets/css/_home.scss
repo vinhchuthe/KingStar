@@ -906,9 +906,24 @@ $black: #000000;
         .vct-banner-wrapper {
             margin-top: 0;
 
-            &::before,
+            &::before {
+                content: '';
+                position: absolute;
+                background-size: 100% 100%;
+                background-repeat: no-repeat;
+                transform: translateY(-50%);
+                top: 43%;
+                left: 0;
+                width: 20%;
+                height: 20%;
+                background-image: url("../image/deco-group9.png");
+            }
+
             &::after {
-                display: none;
+                top: 40%;
+                right: 0;
+                width: 20%;
+                height: 23%;
             }
 
             .overlay-banner {
@@ -944,9 +959,16 @@ $black: #000000;
         .vct-block-1 {
             padding: 50px 0;
 
-            &::before,
-            &::after {
+            &::before {
                 display: none;
+            }
+
+            &::after {
+                top: 0;
+                right: -5%;
+                width: 17%;
+                height: 10%;
+                background-image: url("../image/deco-group8.png");
             }
 
             .container {
@@ -1033,6 +1055,32 @@ $black: #000000;
                             }
                         }
                     }
+                }
+
+                &::before {
+                    content: '';
+                    position: absolute;
+                    background-size: 100% 100%;
+                    background-repeat: no-repeat;
+                    transform: translateY(-50%);
+                    top: 5%;
+                    left: -3%;
+                    width: 25%;
+                    height: 10%;
+                    background-image: url("../image/deco-group9.png");
+                }
+
+                &::after {
+                    content: '';
+                    position: absolute;
+                    background-size: 100% 100%;
+                    background-repeat: no-repeat;
+                    transform: translateY(-50%);
+                    top: 10%;
+                    right: -10%;
+                    width: 25%;
+                    height: 5%;
+                    background-image: url("../image/deco-group8.png");
                 }
             }
 
@@ -1170,9 +1218,19 @@ $black: #000000;
                 background-color: $white;
             }
 
-            &::before,
+            &::before {
+                top: 40%;
+                left: 0;
+                width: 20%;
+                height: 15%;
+                z-index: 3;
+            }
+
             &::after {
-                display: none;
+                top: 55%;
+                right: 0;
+                width: 15%;
+                height: 15%;
             }
 
             .vct-block-content {
