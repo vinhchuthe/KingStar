@@ -61,3 +61,11 @@ const swiper4 = new Swiper('#brand-slider2', {
     //     prevEl: '.swiper-button-prev',
     // },
 });
+
+$(document).ready(function () {
+    $("#contact-link").click(function () {
+        $("html, body").animate({
+            scrollTop: $(document).height()
+        }, 1000);
+    });
+});
