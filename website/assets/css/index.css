@@ -230,21 +230,7 @@
   position: fixed;
   bottom: 15px;
   right: 25px;
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  background: linear-gradient(242.08deg, #EBFF6D 19.5%, #5DCAF3 52.12%), #02ACED;
   z-index: 10;
-  cursor: pointer;
 }
 
 .vct-fixed-cta span {
@@ -254,11 +240,48 @@
   font-style: normal;
   font-weight: bold;
   display: block;
-  padding: 0 10px;
-  font-size: 18px;
-  list-style: 1;
+  font-size: 22px;
+  line-height: 1;
   text-shadow: 2px 2px 2px #969696;
+  background: linear-gradient(242.08deg, #EBFF6D 19.5%, #5DCAF3 52.12%), #02ACED;
   text-transform: uppercase;
+  border-radius: 15px;
+  padding: 15px 30px;
+  text-align: center;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  -webkit-animation-name: poping;
+          animation-name: poping;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+@-webkit-keyframes poping {
+  25% {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+  75% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+}
+
+@keyframes poping {
+  25% {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+  75% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
 }
 
 @media (max-width: 1300px) {
@@ -358,6 +381,9 @@
   .vct-footer .vct-footer-group .footer-content-left {
     text-align: center;
     margin-bottom: 30px;
+  }
+  .vct-fixed-cta span {
+    font-size: 16px;
   }
 }
 
