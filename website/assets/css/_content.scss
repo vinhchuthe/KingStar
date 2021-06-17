@@ -340,6 +340,139 @@ $black: #000000;
             }
         }
     }
+
+    .vct-content-block-4 {
+        padding: 70px 0 200px;
+
+        &.block-bg {
+            background-image: url('../image/b6-bg.png');
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+
+            .block-content-form {
+                width: 60%;
+                margin: 0 auto;
+                background-color: $white;
+                padding: 70px 50px;
+                box-shadow: 30px 20px 50px rgba(0, 0, 0, 0.25);
+                border-radius: 20px;
+
+                .form-title {
+                    h4 {
+                        font-family: 'Raleway';
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 30px;
+                        line-height: 35px;
+                        text-align: center;
+                        letter-spacing: 0.05em;
+                        text-transform: uppercase;
+                        color: $black;
+                        margin-bottom: 40px;
+                    }
+                }
+
+                .form-body {
+                    form {
+                        text-align: center;
+
+                        .form-group {
+                            position: relative;
+                            margin-bottom: 40px;
+
+                            label {
+                                position: absolute;
+                                top: -10px;
+                                left: 10px;
+                                background-color: #ffffff;
+                                padding: 0 5px;
+                                margin-bottom: 0;
+                                pointer-events: none;
+                                font-family: 'Raleway';
+                                font-style: normal;
+                                font-weight: normal;
+                                font-size: 18px;
+                                line-height: 20px;
+                                letter-spacing: 0.05em;
+                                color: $black;
+                            }
+
+                            input {
+                                font-family: 'Raleway';
+                                font-style: normal;
+                                font-weight: normal;
+                                font-size: 16px;
+                                line-height: 20px;
+                                letter-spacing: 0.05em;
+                                color: $black;
+                                padding: 15px 10px 10px 10px;
+
+                                &:focus {
+                                    outline: none;
+                                    border: 1px solid #ced4da;
+                                    box-shadow: none;
+                                }
+                            }
+
+                            select {
+                                font-family: 'Raleway';
+                                font-style: normal;
+                                font-weight: normal;
+                                font-size: 16px;
+                                line-height: 20px;
+                                letter-spacing: 0.05em;
+                                color: #858D93;
+                                padding: 15px 10px 10px 10px;
+                                height: auto;
+
+                                &:focus {
+                                    outline: none;
+                                    border: 1px solid #ced4da;
+                                    box-shadow: none;
+                                }
+                            }
+
+                            textarea {
+                                font-family: 'Raleway';
+                                font-style: normal;
+                                font-weight: normal;
+                                font-size: 16px;
+                                line-height: 20px;
+                                letter-spacing: 0.05em;
+                                color: $black;
+                                padding: 15px 10px 10px 10px;
+
+                                &:focus {
+                                    outline: none;
+                                    border: 1px solid #ced4da;
+                                    box-shadow: none;
+                                }
+                            }
+
+                        }
+
+                        .form-cta {
+                            background: linear-gradient(252.29deg, #EBFF6D 8.3%, #5DCAF3 43.65%), #02ACED;
+                            display: inline-block;
+                            padding: 15px 25px;
+                            border-radius: 25px;
+                            margin: 0 auto;
+                            font-family: 'Raleway';
+                            font-style: normal;
+                            font-weight: bold;
+                            color: $black;
+                            font-size: 16px;
+                            border: none;
+
+                            &:hover {
+                                text-decoration: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 
 // Responsive
@@ -385,6 +518,12 @@ $black: #000000;
     #content {
         .vct-banner-wrapper {
             .overlay-banner {}
+        }
+
+        .vct-content-block-4 {
+            .block-content-form {
+                width: 100%;
+            }
         }
     }
 }
@@ -657,6 +796,39 @@ $black: #000000;
                     h4 {
                         font-size: 35px;
                         line-height: 45px;
+                    }
+                }
+            }
+        }
+
+        .vct-content-block-4 {
+            padding: 70px 0;
+
+            &.block-bg {
+                background-size: cover;
+                background-position: center;
+            }
+
+            .block-content-form {
+                padding: 40px 25px;
+
+                .form-title {
+                    h4 {
+                        font-size: 18px;
+                        line-height: 21px;
+                    }
+                }
+
+                .form-body {
+                    form {
+                        .form-group {
+
+                            label,
+                            input {
+                                font-size: 14px;
+                                line-height: 16px;
+                            }
+                        }
                     }
                 }
             }

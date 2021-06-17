@@ -69,11 +69,14 @@ $(document).ready(function () {
         }, 1000);
     });
 
-    $("#join-link").click(function () {
-        window.location.replace("./index.html#join-form");
+    $("#join-link").click(function (e) {
+        e.preventDefault();
+        $("html, body").animate({
+            scrollTop: $('#join-form').offset().top
+        }, 1000);
     });
 
     $("#fixed-cta").click(function () {
-        window.location.replace("./index.html#join-form");
+        window.location.replace("./content.html#join-form");
     });
 });
