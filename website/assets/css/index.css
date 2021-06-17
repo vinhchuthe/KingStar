@@ -1851,7 +1851,7 @@
 
 @media (max-width: 1199.98px) {
   #content .vct-content-block-4 .block-content-form {
-    width: 100%;
+    width: 100% !important;
   }
 }
 
@@ -2054,16 +2054,16 @@
     background-position: center;
   }
   #content .vct-content-block-4 .block-content-form {
-    padding: 40px 25px;
+    padding: 40px 25px !important;
   }
   #content .vct-content-block-4 .block-content-form .form-title h4 {
-    font-size: 18px;
-    line-height: 21px;
+    font-size: 18px !important;
+    line-height: 21px !important;
   }
   #content .vct-content-block-4 .block-content-form .form-body form .form-group label,
   #content .vct-content-block-4 .block-content-form .form-body form .form-group input {
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 14px !important;
+    line-height: 16px !important;
   }
 }
 /*# sourceMappingURL=index.css.map */
