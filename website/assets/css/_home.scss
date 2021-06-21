@@ -33,20 +33,21 @@ $black: #000000;
     .overlay-banner {
         position: absolute;
         top: 50%;
-        left: 10%;
-        transform: translateY(-50%);
-        max-width: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        max-width: 50%;
         z-index: 2;
 
         h1 {
             font-family: 'Raleway';
             font-weight: 900;
-            font-size: 130px;
-            line-height: 153px;
-            // text-align: center;
+            font-size: 72px;
+            line-height: 85px;
+            text-align: center;
             letter-spacing: 0.05em;
             text-transform: uppercase;
             color: $white;
+            margin-bottom: 30px;
 
             span {
                 color: #EBFF6D;
@@ -57,10 +58,26 @@ $black: #000000;
             font-family: 'Raleway';
             font-weight: normal;
             font-size: 20px;
-            width: 80%;
+            // width: 80%;
             line-height: 28px;
             letter-spacing: 0.05em;
             color: $white;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .video-popup {
+            text-align: center;
+
+            .video-btn {
+                display: inline-block;
+
+                img {
+                    max-width: 90px;
+                    height: auto;
+                    display: block;
+                }
+            }
         }
     }
 
@@ -814,6 +831,19 @@ $black: #000000;
                     left: 0;
                     width: 100%;
                     text-align: justify;
+                }
+
+                .video-popup {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+
+                    .video-btn {
+                        img {
+                            max-width: 70px;
+                        }
+                    }
                 }
             }
         }

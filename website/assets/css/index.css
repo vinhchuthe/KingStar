@@ -415,21 +415,23 @@
 .vct-banner-wrapper .overlay-banner {
   position: absolute;
   top: 50%;
-  left: 10%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-  max-width: 60%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  max-width: 50%;
   z-index: 2;
 }
 
 .vct-banner-wrapper .overlay-banner h1 {
   font-family: 'Raleway';
   font-weight: 900;
-  font-size: 130px;
-  line-height: 153px;
+  font-size: 72px;
+  line-height: 85px;
+  text-align: center;
   letter-spacing: 0.05em;
   text-transform: uppercase;
   color: #ffffff;
+  margin-bottom: 30px;
 }
 
 .vct-banner-wrapper .overlay-banner h1 span {
@@ -440,10 +442,25 @@
   font-family: 'Raleway';
   font-weight: normal;
   font-size: 20px;
-  width: 80%;
   line-height: 28px;
   letter-spacing: 0.05em;
   color: #ffffff;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.vct-banner-wrapper .overlay-banner .video-popup {
+  text-align: center;
+}
+
+.vct-banner-wrapper .overlay-banner .video-popup .video-btn {
+  display: inline-block;
+}
+
+.vct-banner-wrapper .overlay-banner .video-popup .video-btn img {
+  max-width: 90px;
+  height: auto;
+  display: block;
 }
 
 .vct-banner-wrapper::before {
@@ -1085,6 +1102,16 @@
     left: 0;
     width: 100%;
     text-align: justify;
+  }
+  #home .vct-banner-wrapper .overlay-banner .video-popup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  #home .vct-banner-wrapper .overlay-banner .video-popup .video-btn img {
+    max-width: 70px;
   }
   #home .vct-block-1 {
     padding: 50px 0;
