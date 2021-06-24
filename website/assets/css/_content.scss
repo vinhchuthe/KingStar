@@ -32,16 +32,25 @@ $black: #000000;
         }
 
         .overlay-banner {
+            top: 50%;
+            left: 10%;
+            transform: translateY(-50%);
+
             h1 {
                 color: #0357A4;
                 font-size: 72px;
                 line-height: 85px;
                 letter-spacing: 0.05em;
                 margin-bottom: 50px;
+                text-align: left;
 
                 span {
                     color: #F6C815;
                 }
+            }
+
+            p {
+                text-align: left;
             }
 
             .banner-light {
