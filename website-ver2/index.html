@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>King Star Network</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.css">
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./assets/css/aos.css">
+    <link rel="stylesheet" href="./assets/css/index.css">
+</head>
+
+<body>
+    <div class="vct-master-wrapper">
+        <section class="header">
+            <nav class="navbar navbar-expand-lg vct-nav">
+                <div class="navbar-brand logo-group">
+                    <img class="logo logo-pc logo-left" src="./assets/image/common/logo_left.png" alt="">
+                    <!-- <img class="logo logo-mb logo-left" src="./assets/image/mb-logo_left.png" alt=""> -->
+                    <img class="logo logo-right" src="./assets/image/common/logo_right.png" alt="">
+                </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end vct-navbar" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./content.html">Content Creator</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="contact-link" class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </section>
+        <section class="video-banner">
+            <div class="banner">
+                <img src="./assets/image/common/banner-thumb.png" alt="">
+                <a class="video-btn" data-fancybox href="#myVideo">
+                    <img src="./assets/image/common/play-btn.png" alt="">
+                </a>
+            </div>
+        </section>
+        <section class="main-content">
+            <div class="content-title text-center">
+                <img src="./assets/image/common/title.png" alt="">
+            </div>
+            <div class="tabList-wrapper">
+                <div class="container">
+                    <ul class="v-tab" id="homeTab">
+                        <li class="tab-item tab-active" data-id='about'>
+                            Về chúng tôi
+                        </li>
+                        <li class="tab-item" data-id='campaign'>
+                            Chiến dịch ấn tượng
+                        </li>
+                        <li class="tab-item" data-id='feature'>
+                            Dịch vụ nổi bật
+                        </li>
+                        <li class="tab-item" data-id="system">
+                            Hệ thống mạnh mẽ
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="v-tab-content" id="homeTabContent">
+                <div class="tab-content tab1 content-active" id="about">
+                    <div class="tab-content-title text-center">
+                        <img src="./assets/image/home/home-tab1.png" alt="">
+                    </div>
+                    <div class="container">
+                        <h4 class="qoute">
+                            <span>Vũ khí của bạn là câu chuyện thương hiệu.</span> <br />
+                            Chiến thuật của Kingstar Network <br />
+                            là câu chuyện con người.
+                        </h4>
+                        <p>
+                            Influencer Service của Kingstar Network sẽ giúp bạn chọn đúng người, <br />
+                            kể đúng cách, biến Influencer thành điểm chạm bùng nổ <br />
+                            trong chiến dịch của thương hiệu!
+                        </p>
+                        <div class="slide-group">
+                            <div class="group gr-left">
+                                <p>Hệ thống <br /> kênh truyền thông</p>
+                                <!-- Slider main container -->
+                                <div class="swiper-container" id="logo1">
+                                    <!-- Additional required wrapper -->
+                                    <div class="swiper-wrapper">
+                                        <!-- Slides -->
+                                        <div class="swiper-slide">
+                                            <img src="./assets/image/home/ad1.png" alt="">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="./assets/image/home/ad2.png" alt="">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="./assets/image/home/ad3.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="group gr-right">
+                                <p>Mạng lưới <br /> Hot Communicty đối tác</p>
+                                <!-- Slider main container -->
+                                <div class="swiper-container" id="logo2">
+                                    <!-- Additional required wrapper -->
+                                    <div class="swiper-wrapper">
+                                        <!-- Slides -->
+                                        <div class="swiper-slide">
+                                            <img src="./assets/image/home/co1.png" alt="">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="./assets/image/home/co2.png" alt="">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="./assets/image/home/co3.png" alt="">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="./assets/image/home/1es.jpeg" alt="">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="./assets/image/home/1et.jpeg" alt="">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="./assets/image/home/1ey.png" alt="">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="./assets/image/home/1q].png" alt="">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="./assets/image/home/1re.jpeg" alt="">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="./assets/image/home/1ưe.jpeg" alt="">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="./assets/image/home/1ưq.png" alt="">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="./assets/image/home/1ed.jpeg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-content tab2" id="campaign">
+                    <div class="tab-content-title text-center">
+                        <img src="./assets/image/home/home-tab2.png" alt="">
+                    </div>
+                    <div class="cam-content-wrapper">
+                        <div class="container">
+                            <p class="text-center">
+                                Là một phần của Admicro, trực thuộc tập đoàn VCCorp, chúng tôi sở hữu hệ sinh thái
+                                truyền thông <br />
+                                và mạng lưới Content Creator phong phú, ứng dụng thành công Influencer Marketing <br />
+                                để hiện thực hóa câu chuyện thương hiệu cho hơn 6000 nhãn hàng.
+                            </p>
+                            <div class="number-group">
+                                <div class="number-item text-center">
+                                    <h4>6000+</h4>
+                                    <p>Nhãn hàng hợp tác</p>
+                                </div>
+                                <div class="number-item text-center">
+                                    <h4>1000+</h4>
+                                    <p>Content Creator đồng hành</p>
+                                </div>
+                                <div class="number-item text-center">
+                                    <h4>1000+</h4>
+                                    <p>Chiến dịch thành công</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="case-slider">
+                            <div class="case-img-slider-wrapper">
+                                <!-- Slider main container -->
+                                <div class="swiper-container" id="case-img">
+                                    <!-- Additional required wrapper -->
+                                    <div class="swiper-wrapper">
+                                        <!-- Slides -->
+                                        <div class="swiper-slide">
+                                            <img src="./assets/image/home/case-img1.png" alt="">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="./assets/image/home/case-img2.png" alt="">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="./assets/image/home/case-img3.png" alt="">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="./assets/image/home/case-img4.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="case-text-slider-wrapper">
+                                <!-- Slider main container -->
+                                <div class="swiper-container" id="case-text">
+                                    <!-- Additional required wrapper -->
+                                    <div class="swiper-wrapper">
+                                        <!-- Slides -->
+                                        <div class="swiper-slide">
+                                            <div class="case-text-content">
+                                                <div class="case-text-inner">
+                                                    <div class="case-header">
+                                                        <div class="case-header-logo">
+                                                            <img src="./assets/image/home/case-logo1.png" alt="">
+                                                        </div>
+                                                        <div class="case-header-title">
+                                                            <h4>
+                                                                <span>AUNTIE ANNE'S</span>
+                                                                Ra mắt thị trường <br />
+                                                                Việt Nam
+                                                            </h4>
+                                                        </div>
+                                                    </div>
+                                                    <div class="case-body">
+                                                        <p>
+                                                            Không chỉ có màn ra mắt ấn tượng tại một thị trường mới mẻ,
+                                                            Auntie Anne's còn tạo nên cơn sốt "Xoắn" với sự trợ giúp của
+                                                            13 KOL, Food Blogger, Hot Teen cùng hàng loạt Hot Fanpage
+                                                            sôi nổi nhất dành cho giới trẻ.
+                                                        </p>
+                                                        <p>
+                                                            "Món tủ" của Auntie Anne's - bánh xoắn mềm Pretzel - cùng
+                                                            văn
+                                                            hóa snack của Mỹ đã "chiếm đóng" mạng xã hội trong suốt
+                                                            những ngày khai trương bằng nhiều hình thức sáng tạo nội
+                                                            dung khác nhau, từ check-in tại cửa hàng đến thử thách "Xoắn
+                                                            mới ngon" độc đáo.
+                                                        </p>
+                                                        <h5>Kết quả</h5>
+                                                        <p>
+                                                            Chiến dịch đã nhận được nhiều tương tác, ủng hộ từ các độc
+                                                            giả, người tiêu dùng và tạo nên nhiều cuộc thảo luận trên
+                                                            các Hotpage như NEU Confession, Kênh 14, Lê Bích, Chuyện vặt
+                                                            của múc…
+                                                        </p>
+                                                    </div>
+                                                    <div class="case-number">
+                                                        <div class="case-number-col">
+                                                            <div class="case-number-item">
+                                                                <h5>13</h5>
+                                                                <p>CREATORS</p>
+                                                            </div>
+                                                            <div class="case-number-item">
+                                                                <h5>158K</h5>
+                                                                <p>REACH</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="case-number-col">
+                                                            <div class="case-number-item">
+                                                                <h5>3M</h5>
+                                                                <p>IMPRESSIONS</p>
+                                                            </div>
+                                                            <div class="case-number-item">
+                                                                <h5>3K</h5>
+                                                                <p>ENGAGEMENT</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="case-number-col">
+                                                            <div class="case-number-item">
+                                                                <h5>48K</h5>
+                                                                <p>VIEWS</p>
+                                                            </div>
+                                                            <div class="case-number-item">
+                                                                <h5>17K</h5>
+                                                                <p>CLICKS</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="case-text-content">
+                                                <div class="case-text-inner">
+                                                    <div class="case-header">
+                                                        <div class="case-header-logo">
+                                                            <img src="./assets/image/home/case-logo2.png" alt="">
+                                                        </div>
+                                                        <div class="case-header-title">
+                                                            <h4>
+                                                                <span>DOVE</span>
+                                                                Nghe da kể chuyện
+                                                            </h4>
+                                                        </div>
+                                                    </div>
+                                                    <div class="case-body">
+                                                        <p>
+                                                            Với mục tiêu tăng nhận diện thương hiệu cho dòng sữa tắm
+                                                            được bổ sung thêm 1/4 hàm lượng kem dưỡng ẩm da mặt, DOVE
+                                                            tiếp tục thực hiện một Emotional Campaign tôn vinh làn da
+                                                            của chị em phụ nữ với Ý tưởng: Nghe Da Kể Chuyện - làn da cơ
+                                                            thể là nơi thể hiện rõ nhất những trải nghiệm cuộc sống, nói
+                                                            lên câu chuyện và cuộc sống của mỗi cô gái.
+                                                        </p>
+                                                        <p>
+                                                            Gần 50 Content Creator, Visual Artist, Nhạc sĩ, KOL và hệ
+                                                            thống Fanpage, Community đa dạng đã sáng tạo và lan tỏa
+                                                            thông điệp truyền cảm hứng thông qua những bài hát, văn, thơ
+                                                            và những câu chuyện riêng về làn da.
+                                                        </p>
+                                                        <h5>Kết quả</h5>
+                                                        <p>
+                                                            Chiến dịch đã nhận được nhiều tương tác, ủng hộ từ các độc
+                                                            giả, người tiêu dùng và tạo nên nhiều cuộc thảo luận trên
+                                                            các Hotpage như NEU Confession, Kênh 14, Lê Bích, Chuyện vặt
+                                                            của múc…
+                                                        </p>
+                                                    </div>
+                                                    <div class="case-number">
+                                                        <div class="case-number-col">
+                                                            <div class="case-number-item">
+                                                                <h5>34</h5>
+                                                                <p>CREATORS</p>
+                                                            </div>
+                                                            <div class="case-number-item">
+                                                                <h5>2M</h5>
+                                                                <p>REACH</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="case-number-col">
+                                                            <div class="case-number-item">
+                                                                <h5>26</h5>
+                                                                <p>HOT FANPAGE</p>
+                                                            </div>
+                                                            <div class="case-number-item">
+                                                                <h5>500K</h5>
+                                                                <p>ENGAGEMENT</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="case-number-col">
+                                                            <div class="case-number-item">
+                                                                <h5>1K</h5>
+                                                                <p>USERS</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="case-text-content">
+                                                <div class="case-text-inner">
+                                                    <div class="case-header mb-80">
+                                                        <div class="case-header-logo">
+                                                            <img src="./assets/image/home/case-logo3.png" alt="">
+                                                        </div>
+                                                        <div class="case-header-title">
+                                                            <h4>
+                                                                <span>KEM TRÀNG TIỀN</span>
+                                                                Hương vị vượt thời gian
+                                                            </h4>
+                                                        </div>
+                                                    </div>
+                                                    <div class="case-body">
+                                                        <p>
+                                                            Trong lần trở lại đầy ấn tượng, Kem Tràng Tiền - một thức
+                                                            quà quen thuộc của Hà Nội - không chỉ thay đổi toàn bộ diện
+                                                            mạo từ logo đến bảng hiệu, bao bì sản phẩm… mà còn hợp tác
+                                                            với hàng loạt Food Blogger, Micro-Influencer và các Hot
+                                                            Fanpage, Review Group để phủ sóng trên khắp các cộng đồng
+                                                            GenZ và ăn - chơi.
+                                                        </p>
+                                                        <h5>Kết quả</h5>
+                                                        <p>
+                                                            Chiến dịch đạt được lượng tương tác lớn trên các trang tin
+                                                            cũng như Mạng xã hội, nhận được sự hưởng ứng của các bạn trẻ
+                                                            với nhiều bình luận tích cực và hình ảnh check-in.
+                                                        </p>
+                                                    </div>
+                                                    <div class="case-number">
+                                                        <div class="case-number-col">
+                                                            <div class="case-number-item">
+                                                                <h5>9K</h5>
+                                                                <p>CLICK</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="case-number-col">
+                                                            <div class="case-number-item">
+                                                                <h5>9M</h5>
+                                                                <p>PR VIEWS</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="case-number-col">
+                                                            <div class="case-number-item">
+                                                                <h5>415K</h5>
+                                                                <p>ENGAGEMENT</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="case-text-content">
+                                                <div class="case-text-inner">
+                                                    <div class="case-header mb-80">
+                                                        <div class="case-header-logo">
+                                                            <img src="./assets/image/home/case-logo4.png" alt="">
+                                                        </div>
+                                                        <div class="case-header-title">
+                                                            <h4>
+                                                                <span>L'OREAL</span>
+                                                                Tôi là “Chính nữ”
+                                                            </h4>
+                                                        </div>
+                                                    </div>
+                                                    <div class="case-body mb-80">
+                                                        <p>
+                                                            Nhân dịp 8/3, l'Oreal trở lại với campaign: Tôi là "Chính
+                                                            nữ", truyền cảm hứng để mỗi cô gái trở thành nhân vật chính,
+                                                            có đủ tự tin để sải bước, tự mình phát ra ánh hào quang và
+                                                            vẽ nên câu chuyện cho riêng mình.
+                                                        </p>
+                                                        <p>
+                                                            Để lan tỏa thông điệp ý nghĩa của Tôi là “Chính nữ” trên
+                                                            mạng xã hội, Kingstar Network đã sử dụng hệ thống Content
+                                                            Creator là các KOLs, Influencers, Hot Fanpage để khai thác,
+                                                            ủng hộ và chia sẻ những câu
+                                                        </p>
+                                                    </div>
+                                                    <div class="case-number">
+                                                        <div class="case-number-col">
+                                                            <div class="case-number-item">
+                                                                <h5>10</h5>
+                                                                <p>CREATORS</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="case-number-col">
+                                                            <div class="case-number-item">
+                                                                <h5>905K</h5>
+                                                                <p>REACH</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="case-number-col">
+                                                            <div class="case-number-item">
+                                                                <h5>23K</h5>
+                                                                <p>ENGAGEMENT</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="swiper-button-next"></div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="container">
+                            <!-- Slider main container -->
+                            <div class="swiper-container brand-slider" id="brand-slide">
+                                <!-- Additional required wrapper -->
+                                <div class="swiper-wrapper">
+                                    <!-- Slides -->
+                                    <div class="swiper-slide">
+                                        <img src="./assets/image/home/brand1.png" alt="">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./assets/image/home/brand2.png" alt="">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./assets/image/home/brand3.png" alt="">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./assets/image/home/brand4.png" alt="">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./assets/image/home/brand5.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-content tab3" id="feature">
+                    <div class="tab-content-title text-center">
+                        <img src="./assets/image/home/home-tab3.png" alt="">
+                    </div>
+                    <div class="container-fluid no-padding">
+                        <div class="creative-group">
+                            <div class="creative-item">
+                                <div class="creative-img">
+                                    <img src="./assets/image/home/creative-img1.png" alt="">
+                                </div>
+                                <div class="creative-overlay">
+                                    <p>
+                                        Được theo dõi bởi đông đảo khán giả đại chúng, người nổi tiếng (ca sĩ, diễn
+                                        viên, người mẫu,...) có sức ảnh hưởng lớn tới cộng đồng, giúp tạo tiếng vang
+                                        mạnh mẽ cho nhãn hàng thuộc nhiều lĩnh vực.
+                                    </p>
+                                    <h4>Hot Community</h4>
+                                </div>
+                            </div>
+                            <div class="creative-item">
+                                <div class="creative-img">
+                                    <img src="./assets/image/home/creative-img2.png" alt="">
+                                </div>
+                                <div class="creative-overlay">
+                                    <p>
+                                        Khi ai cũng cảnh giác trước các review hoa mỹ, KOC (Key Opinion Consumer) -
+                                        Người tiêu dùng có sức ảnh hưởng - tỏa sáng bằng những trải nghiệm chân thực,
+                                        đánh giá thuyết phục, góc nhìn công tâm khi nghiên cứu cả ưu điểm lẫn nhược điểm
+                                        về mỗi sản phẩm.
+                                    </p>
+                                    <h4>Hot Community</h4>
+                                </div>
+                            </div>
+                            <div class="creative-item">
+                                <div class="creative-img">
+                                    <img src="./assets/image/home/creative-img3.png" alt="">
+                                </div>
+                                <div class="creative-overlay">
+                                    <p>
+                                        Khi nhãn hàng cần sự tin tưởng hơn cả mức độ phủ sóng, hãy tìm đến những nhà
+                                        sáng tạo nội dung có chuyên môn và tầm ảnh hưởng tại một lĩnh vực cụ thể.
+                                    </p>
+                                    <h4>Hot Community</h4>
+                                </div>
+                            </div>
+                            <div class="creative-item">
+                                <div class="creative-img">
+                                    <img src="./assets/image/home/creative-img4.png" alt="">
+                                </div>
+                                <div class="creative-overlay">
+                                    <p>
+                                        Mỗi ngày đều sôi động với những câu chuyện đắt giá thuộc nhiều chủ đề, Community
+                                        Page là nơi nhãn hàng dễ dàng tiếp cận khách hàng, thổi bùng thảo luận, lắng
+                                        nghe phản hồi, điều hướng sự quan tâm bằng những những nội dung sáng tạo không
+                                        ngờ đến.
+                                    </p>
+                                    <h4>Hot Community</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="creative-qoute text-center">
+                            <p>
+                                Câu chuyện của bạn là câu chuyện thương hiệu, còn câu chuyện của tôi là câu chuyện con
+                                người. <br />
+                                Bạn muốn kể câu chuyện của mình, vừa hay chúng tôi cũng có những thứ mà bạn cần !
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-content tab4" id="system">
+                    <div class="tab-content-title text-center">
+                        <img src="./assets/image/home/home-tab4.png" alt="">
+                    </div>
+                    <div class="container">
+                        <div class="tab-content-header text-center">
+                            <p>
+                                Với thế mạnh tìm kiếm, kết nối các nhà sáng tạo và lan tỏa nội dung trên nền tảng công
+                                nghệ, <br />
+                                Kingstar Network mang đến cho bạn những giải pháp truyền thông tối ưu và hiệu quả với
+                                mọi ngành hàng.
+                            </p>
+                            <div class="sep"></div>
+                            <h4>
+                                <span>Hơn cả Influencer</span> <br />
+                                là Influencer Service
+                            </h4>
+                        </div>
+                        <div class="system-group">
+                            <div class="system-group-item">
+                                <div class="system-img">
+                                    <img src="./assets/image/home/sys1.png" alt="">
+                                </div>
+                                <div class="system-content">
+                                    <h4 class="system-title">
+                                        <span>Striking</span>
+                                        Cộng hưởng
+                                    </h4>
+                                    <p>
+                                        Kingstar Network sở hữu các Content Creator tài năng và hệ thống fanpage đa lĩnh
+                                        vực, đa nền tảng của VCCorp hứa hẹn tiềm năng cộng hưởng nội dung độc đáo, ấn
+                                        tượng và bùng nổ.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="system-group-item">
+                                <div class="system-img">
+                                    <img src="./assets/image/home/sys2.png" alt="">
+                                </div>
+                                <div class="system-content">
+                                    <h4 class="system-title">
+                                        <span>Time-saving</span>
+                                        Nhanh chóng
+                                    </h4>
+                                    <p>
+                                        Không chỉ tư vấn chiến lược, Kingstar Network còn lập kế hoạch điều phối nội
+                                        dung, xác định KPI và kết nối, vận hành hiệu quả, tiết kiệm thời gian, công sức
+                                        triển khai cho nhãn hàng.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="system-group-item">
+                                <div class="system-img">
+                                    <img src="./assets/image/home/sys3.png" alt="">
+                                </div>
+                                <div class="system-content">
+                                    <h4 class="system-title">
+                                        <span>Adaptative</span>
+                                        Linh hoạt
+                                    </h4>
+                                    <p>
+                                        Sở hữu đội ngũ nhân sự nhiều kinh nghiệm, có khả năng nắm bắt và ứng dụng xu
+                                        hướng thị trường Influencer, Kingstar Network tối ưu hóa chỉ số ROI cho khách
+                                        hàng thông qua các dự đoán, tư vấn chính xác cả trước và trong chiến dịch.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="system-group-item">
+                                <div class="system-img">
+                                    <img src="./assets/image/home/sys4.png" alt="">
+                                </div>
+                                <div class="system-content">
+                                    <h4 class="system-title">
+                                        <span>Real</span>
+                                        Chân thật
+                                    </h4>
+                                    <p>
+                                        Với khả năng điều hướng và tạo nội dung nổi bật của hệ thống Influencer thuộc
+                                        Kingstar Network, thông điệp, hình ảnh của nhãn hàng sẽ được sáng tạo và lan tỏa
+                                        một cách chân thật, tự nhiên trong mỗi cộng đồng.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="footer">
+            <div class="vct-footer w-1400">
+                <div class="vct-footer-item footer-item1">
+                    <div class="baogia mt-10">
+                        <h4>Liên hệ báo giá</h4>
+                        <a href="mailto:socialmedia@admicro.vn">socialmedia@admicro.vn</a>
+                    </div>
+                </div>
+                <div class="vct-footer-item footer-item2">
+                    <div class="diachi mt-10">
+                        <p>
+                            Số 1 Nguyễn Huy Tưởng, <br />
+                            phường Thanh Xuân Trung, <br />
+                            quận Thanh Xuân, Hà Nội
+                        </p>
+                    </div>
+                </div>
+                <div class="vct-footer-item footer-item3">
+                    <div class="diachi mt-10">
+                        <p>
+                            123 Võ Văn Tần, <br />
+                            Phường 6, quận 3, <br />
+                            Thành phố Hồ Chí Minh
+                        </p>
+                    </div>
+                </div>
+                <div class="vct-footer-item footer-item4">
+                    <div class="logo">
+                        <img src="./assets/image/common/footer-icon.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- video -->
+    <video controls id="myVideo" style="display:none;">
+        <source src="./assets/video/Final_ver5.mp4" type="video/mp4">
+    </video>
+
+    <!-- JS Libary -->
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script src="./assets/js/aos.js"></script>
+    <script src="./assets/js/swiper-bundle.js"></script>
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+    
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
