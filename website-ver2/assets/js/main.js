@@ -81,4 +81,12 @@ $(document).ready(function () {
             $(".v-tab-content").height(height);
         }, 200);
     });
+
+    $("#contact-link").click(function (e) {
+        e.preventDefault();
+        $('html, body').animate({
+            scrollTop: $(document).height()
+        }, 'slow');
+        return false;
+    });
 });
