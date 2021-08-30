@@ -35,7 +35,7 @@ $(document).ready(function () {
         // Optional parameters
         loop: true,
         slidesPerView: 3,
-        spaceBetween: 20,
+        // spaceBetween: 20,
         autoplay: {
             delay: 2500,
             disableOnInteraction: false,
