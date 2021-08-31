@@ -917,6 +917,15 @@
           box-shadow: 5px 4px 7px 5px rgba(0, 0, 0, 0.2);
 }
 
+.banner-overlay {
+  position: absolute;
+  left: 30% !important;
+  top: 15% !important;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 30%;
+}
+
 .tab5 .qoute {
   text-align: center;
   font-family: 'AddingtonCF';

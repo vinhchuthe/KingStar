@@ -4,6 +4,14 @@ $gray: #afafaf;
 $cream: #d3a95c;
 $dark-cream: #cea35b;
 
+.banner-overlay {
+    position: absolute;
+    left: 30% !important;
+    top: 15% !important;
+    transform: translate(-50%,-50%);
+    width: 30%;
+}
+
 // tab5
 .tab5 {
     .qoute {
