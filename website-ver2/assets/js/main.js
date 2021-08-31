@@ -19,7 +19,8 @@ $(document).ready(function () {
         observeParents: true,
         grabCursor: true,
         navigation: {
-            nextEl: '.swiper-button-next',
+            nextEl: '.v-swiper-button-next',
+            prevEl: '.v-swiper-button-prev',
         }
     });
 

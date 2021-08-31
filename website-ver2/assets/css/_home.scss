@@ -133,11 +133,42 @@ $dark-cream: #cea35b;
         display: flex;
         background-color: #0c0c0c;
         margin: 50px 0;
+        height: calc(100vh - 91px);
+        position: relative;
+
+        .v-swiper-button-next {
+            position: absolute;
+            top: 50%;
+            z-index: 1;
+            right: 10%;
+            width: 2%;
+            transform: translateY(-50%);
+
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+
+        .v-swiper-button-prev {
+            position: absolute;
+            top: 50%;
+            z-index: 1;
+            left: 2%;
+            width: 2%;
+            transform: translateY(-50%);
+
+            img {
+                width: 100%;
+                height: auto;
+                transform: rotate(180deg);
+            }
+        }
     }
 
     #case-img,
     #case-text {
-        height: 100vh;
+        height: 100%;
     }
 
     .case-img-slider-wrapper {
@@ -147,8 +178,8 @@ $dark-cream: #cea35b;
         .swiper-slide {
             img {
                 width: 100%;
-                height: 100%;
-                object-fit: cover;
+                height: auto;
+                object-fit: contain;
                 object-position: 50% 50%;
             }
         }
@@ -271,21 +302,6 @@ $dark-cream: #cea35b;
                         }
                     }
                 }
-            }
-        }
-
-        .swiper-button-next {
-            right: 10%;
-
-            &::after {
-                content: "";
-                position: absolute;
-                width: 100%;
-                height: 100%;
-                background-image: url('../image/home/arrow.png');
-                background-repeat: no-repeat;
-                background-position: center;
-                background-size: 100% 100%;
             }
         }
     }
