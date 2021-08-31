@@ -66,7 +66,7 @@ $(document).ready(function () {
     const swiper6 = new Swiper('#social-slide', {
         // Optional parameters
         loop: true,
-        slidesPerView: 5,
+        slidesPerView: 6,
         observer: true,
         observeParents: true,
         spaceBetween: 10,
