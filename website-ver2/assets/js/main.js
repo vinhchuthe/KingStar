@@ -56,7 +56,7 @@ $(document).ready(function () {
     const swiper6 = new Swiper('#social-slide', {
         // Optional parameters
         loop: true,
-        slidesPerView: 4,
+        slidesPerView: 5,
         spaceBetween: 20,
         autoplay: {
             delay: 2500,
