@@ -9,21 +9,6 @@ $dark-cream: #cea35b;
     overflow: hidden;
 }
 
-.tab-content {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1;
-    opacity: 0;
-    transition: all 0.4s;
-
-    &.content-active {
-        opacity: 1;
-        z-index: 2;
-    }
-}
-
 // tab1
 .tab1 {
     .qoute {

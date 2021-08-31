@@ -60,24 +60,28 @@
             </div>
             <div class="tabList-wrapper">
                 <div class="container">
-                    <ul class="v-tab" id="homeTab">
-                        <li class="tab-item tab-active" data-id='about'>
-                            Về chúng tôi
+                    <ul class="nav nav-pills v-tab" id="homeTab" role="tablist">
+                        <li class="nav-item tab-item" role="presentation">
+                            <a class="nav-link active" id="about-tab" data-toggle="tab" href="#about" role="tab"
+                                aria-controls="about" aria-selected="true">Về chúng tôi</a>
                         </li>
-                        <li class="tab-item" data-id='campaign'>
-                            Chiến dịch ấn tượng
+                        <li class="nav-item tab-item" role="presentation">
+                            <a class="nav-link" id="campaign-tab" data-toggle="tab" href="#campaign" role="tab"
+                                aria-controls="campaign" aria-selected="false">Chiến dịch ấn tượng</a>
                         </li>
-                        <li class="tab-item" data-id='feature'>
-                            Dịch vụ nổi bật
+                        <li class="nav-item tab-item" role="presentation">
+                            <a class="nav-link" id="feature-tab" data-toggle="tab" href="#feature" role="tab"
+                                aria-controls="feature" aria-selected="false">Dịch vụ nổi bật</a>
                         </li>
-                        <li class="tab-item" data-id="system">
-                            Hệ thống mạnh mẽ
+                        <li class="nav-item tab-item" role="presentation">
+                            <a class="nav-link" id="system-tab" data-toggle="tab" href="#system" role="tab"
+                                aria-controls="system" aria-selected="false">Hệ thống mạnh mẽ</a>
                         </li>
                     </ul>
                 </div>
             </div>
-            <div class="v-tab-content" id="homeTabContent">
-                <div class="tab-content tab1 content-active" id="about">
+            <div class="tab-content" id="homeTabContent">
+                <div class="tab-pane tab1 fade show active" id="about" role="tabpanel" aria-labelledby="about-tab">
                     <div class="tab-content-title text-center">
                         <img src="./assets/image/home/home-tab1.png" alt="">
                     </div>
@@ -209,7 +213,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="tab-content tab2" id="campaign">
+                <div class="tab-pane tab2 fade" id="campaign" role="tabpanel" aria-labelledby="campaign-tab">
                     <div class="tab-content-title text-center">
                         <img src="./assets/image/home/home-tab2.png" alt="">
                     </div>
@@ -573,7 +577,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="tab-content tab3" id="feature">
+                <div class="tab-pane tab3 fade" id="feature" role="tabpanel" aria-labelledby="feature-tab">
                     <div class="tab-content-title text-center">
                         <img src="./assets/image/home/home-tab3.png" alt="">
                     </div>
@@ -642,7 +646,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="tab-content tab4" id="system">
+                <div class="tab-pane tab4 fade" id="system" role="tabpanel" aria-labelledby="system-tab">
                     <div class="tab-content-title text-center">
                         <img src="./assets/image/home/home-tab4.png" alt="">
                     </div>

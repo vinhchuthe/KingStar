@@ -242,28 +242,41 @@ $dark-cream: #cea35b;
     display: flex;
     padding: 0;
     margin-bottom: 0;
+    border: unset;
 }
 
 .tab-item {
     flex: 0 0 25%;
-    font-family: 'AddingtonCF';
-    font-style: italic;
-    font-weight: normal;
-    color: #000000;
-    text-align: center;
-    font-size: 28px;
-    line-height: 1;
-    padding: 15px 0;
-    transition: all 0.3s;
-    cursor: pointer;
+    max-width: 25%;
 
-    @media (max-width: 1400px) {
-        font-size: 24px;
-    }
+    .nav-link {
+        font-family: 'AddingtonCF';
+        font-style: italic;
+        font-weight: normal;
+        color: #000000;
+        text-align: center;
+        font-size: 28px;
+        line-height: 1;
+        padding: 15px 0;
+        transition: all 0.3s;
+        cursor: pointer;
+        border-radius: 0;
 
-    &.tab-active {
-        background-color: #d3a95c;
-        color: $white;
+        &:hover {
+            border: unset;
+            border-color: unset;
+        }
+
+        &.active {
+            background-color: #d3a95c;
+            border-color: unset;
+            border: unset;
+            color: $white;
+        }
+
+        @media (max-width: 1400px) {
+            font-size: 24px;
+        }
     }
 }
 
