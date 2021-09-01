@@ -69,6 +69,10 @@ $dark-cream: #cea35b;
         &.logo-mb {
             display: none;
         }
+
+        @media (max-width: 1366px) {
+            max-height: 40px;
+        }
     }
 }
 
@@ -88,6 +92,10 @@ $dark-cream: #cea35b;
                 font-style: italic;
                 font-weight: normal;
                 transition: all 0.3s;
+
+                @media (max-width: 1366px) {
+                    font-size: 24px;
+                }
             }
 
             &.active {
@@ -133,6 +141,10 @@ $dark-cream: #cea35b;
             color: $white;
             text-transform: uppercase;
             margin-bottom: 5px;
+
+            @media (max-width: 1600px) {
+                font-size: 35px;
+            }
         }
 
         a {
@@ -145,6 +157,10 @@ $dark-cream: #cea35b;
 
             &:hover {
                 text-decoration: none;
+            }
+
+            @media (max-width: 1600px) {
+                font-size: 16px;
             }
         }
     }
@@ -172,7 +188,7 @@ $dark-cream: #cea35b;
                 background-size: 100% 100%;
             }
 
-            @media (max-width: 1400px) {
+            @media (max-width: 1600px) {
                 font-size: 16px;
             }
         }
@@ -210,6 +226,10 @@ $dark-cream: #cea35b;
         animation-duration: 1.5s;
         animation-iteration-count: infinite;
         animation-timing-function: linear;
+    }
+
+    @media (max-width: 1366px) {
+        padding-top: 81px;
     }
 }
 
@@ -272,6 +292,10 @@ $dark-cream: #cea35b;
             border-color: unset;
             border: unset;
             color: $white;
+        }
+
+        @media (max-width: 1600px) {
+            font-size: 26px;
         }
 
         @media (max-width: 1400px) {

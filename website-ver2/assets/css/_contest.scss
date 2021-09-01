@@ -8,7 +8,7 @@ $dark-cream: #cea35b;
     position: absolute;
     left: 30% !important;
     top: 10% !important;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     width: 30%;
 }
 
@@ -43,8 +43,12 @@ $dark-cream: #cea35b;
             background-size: 100% 100%;
         }
 
-        @media (max-width: 1400px) {
+        @media (max-width: 1600px) {
             font-size: 40px;
+        }
+
+        @media (max-width: 1400px) {
+            font-size: 35px;
         }
     }
 
@@ -80,8 +84,12 @@ $dark-cream: #cea35b;
                 line-height: 1;
                 margin-bottom: 0;
 
-                @media (max-width: 1400px) {
+                @media (max-width: 1600px) {
                     font-size: 80px;
+                }
+
+                @media (max-width: 1400px) {
+                    font-size: 75px;
                 }
             }
 
@@ -91,6 +99,10 @@ $dark-cream: #cea35b;
                 font-weight: 600;
                 font-size: 26px;
                 margin-bottom: 10px;
+
+                @media (max-width: 1400px) {
+                    font-size: 24px;
+                }
             }
         }
     }

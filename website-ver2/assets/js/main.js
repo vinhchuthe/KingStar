@@ -67,7 +67,7 @@ $(document).ready(function () {
     const swiper6 = new Swiper('#social-slide', {
         // Optional parameters
         loop: true,
-        slidesPerView: 6,
+        slidesPerView: 5,
         observer: true,
         observeParents: true,
         spaceBetween: 10,
@@ -75,6 +75,11 @@ $(document).ready(function () {
             delay: 2500,
             disableOnInteraction: false,
         },
+        breakpoints: {
+            1600: {
+                slidesPerView: 6,
+            },
+        }
     });
 
     // var height = $(".v-tab-content .content-active").outerHeight(true);
