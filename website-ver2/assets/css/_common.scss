@@ -145,6 +145,10 @@ $dark-cream: #cea35b;
             @media (max-width: 1600px) {
                 font-size: 35px;
             }
+
+            @media (max-width: 1200px) {
+                font-size: 30px;
+            }
         }
 
         a {
@@ -161,6 +165,10 @@ $dark-cream: #cea35b;
 
             @media (max-width: 1600px) {
                 font-size: 16px;
+            }
+
+            @media (max-width: 1200px) {
+                font-size: 14px;
             }
         }
     }
@@ -190,6 +198,10 @@ $dark-cream: #cea35b;
 
             @media (max-width: 1600px) {
                 font-size: 16px;
+            }
+
+            @media (max-width: 1200px) {
+                font-size: 14px;
             }
         }
     }
@@ -300,6 +312,10 @@ $dark-cream: #cea35b;
 
         @media (max-width: 1400px) {
             font-size: 24px;
+        }
+
+        @media (max-width: 1200px) {
+            font-size: 22px;
         }
     }
 }

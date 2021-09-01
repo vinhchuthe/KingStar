@@ -199,6 +199,12 @@
   }
 }
 
+@media (max-width: 1200px) {
+  .vct-footer-item .baogia h4 {
+    font-size: 30px;
+  }
+}
+
 .vct-footer-item .baogia a {
   font-family: 'Averta';
   font-style: normal;
@@ -215,6 +221,12 @@
 @media (max-width: 1600px) {
   .vct-footer-item .baogia a {
     font-size: 16px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .vct-footer-item .baogia a {
+    font-size: 14px;
   }
 }
 
@@ -244,6 +256,12 @@
 @media (max-width: 1600px) {
   .vct-footer-item .diachi p {
     font-size: 16px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .vct-footer-item .diachi p {
+    font-size: 14px;
   }
 }
 
@@ -370,6 +388,12 @@
 @media (max-width: 1400px) {
   .tab-item .nav-link {
     font-size: 24px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .tab-item .nav-link {
+    font-size: 22px;
   }
 }
 
@@ -592,6 +616,14 @@
      object-fit: contain;
   -o-object-position: 50% 50%;
      object-position: 50% 50%;
+}
+
+@media (max-width: 1200px) {
+  .tab2 .case-img-slider-wrapper .swiper-slide img {
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
 }
 
 .tab2 .case-text-slider-wrapper {
@@ -848,6 +880,12 @@
   }
 }
 
+@media (max-width: 1200px) {
+  .tab3 .creative-item .creative-overlay p {
+    font-size: 14px;
+  }
+}
+
 .tab3 .creative-item .creative-overlay h4 {
   position: absolute;
   bottom: 0;
@@ -880,6 +918,12 @@
 @media (max-width: 1600px) {
   .tab3 .creative-item .creative-overlay {
     padding: 50px 50px 0;
+  }
+}
+
+@media (max-width: 1200px) {
+  .tab3 .creative-item .creative-overlay {
+    padding: 40px 40px 0;
   }
 }
 
@@ -1045,6 +1089,12 @@
 @media (max-width: 1600px) {
   .tab4 .system-group .system-group-item .system-content p {
     font-size: 16px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .tab4 .system-group .system-group-item .system-content p {
+    font-size: 14px;
   }
 }
 

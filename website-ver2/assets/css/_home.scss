@@ -193,6 +193,11 @@ $dark-cream: #cea35b;
                 height: auto;
                 object-fit: contain;
                 object-position: 50% 50%;
+
+                @media (max-width: 1200px) {
+                    height: 100%;
+                    object-fit: cover;
+                }
             }
         }
     }
@@ -407,6 +412,10 @@ $dark-cream: #cea35b;
                 @media (max-width: 1400px) {
                     font-size: 15px;
                 }
+
+                @media (max-width: 1200px) {
+                    font-size: 14px;
+                }
             }
 
             h4 {
@@ -436,6 +445,10 @@ $dark-cream: #cea35b;
 
             @media (max-width: 1600px) {
                 padding: 50px 50px 0;
+            }
+
+            @media (max-width: 1200px) {
+                padding: 40px 40px 0;
             }
         }
 
@@ -590,6 +603,10 @@ $dark-cream: #cea35b;
 
                     @media (max-width: 1600px) {
                         font-size: 16px;
+                    }
+
+                    @media (max-width: 1200px) {
+                        font-size: 14px;
                     }
                 }
             }
