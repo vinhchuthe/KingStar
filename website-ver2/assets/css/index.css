@@ -992,7 +992,7 @@
 .banner-overlay {
   position: absolute;
   left: 30% !important;
-  top: 15% !important;
+  top: 10% !important;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   width: 30%;
