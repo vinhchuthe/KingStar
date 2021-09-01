@@ -502,6 +502,12 @@
   height: auto;
 }
 
+@media (max-width: 1600px) {
+  .tab2 .case-slider .v-swiper-button-next {
+    right: 5%;
+  }
+}
+
 .tab2 .case-slider .v-swiper-button-prev {
   position: absolute;
   top: 50%;
@@ -603,9 +609,37 @@
   }
 }
 
+@media (max-width: 1400px) {
+  .tab2 .case-text-slider-wrapper .case-text-content .case-header-title h4 span {
+    font-size: 35px;
+  }
+}
+
 @media (max-width: 1600px) {
   .tab2 .case-text-slider-wrapper .case-text-content .case-header-title h4 {
     font-size: 30px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .tab2 .case-text-slider-wrapper .case-text-content .case-header-title h4 {
+    font-size: 25px;
+  }
+}
+
+.tab2 .case-text-slider-wrapper .case-text-content .case-header-logo {
+  max-width: 98px;
+}
+
+.tab2 .case-text-slider-wrapper .case-text-content .case-header-logo img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 1400px) {
+  .tab2 .case-text-slider-wrapper .case-text-content .case-header-logo {
+    max-width: 80px;
   }
 }
 
@@ -632,7 +666,8 @@
 
 @media (max-width: 1400px) {
   .tab2 .case-text-slider-wrapper .case-text-content .case-body p {
-    font-size: 14px;
+    font-size: 12px;
+    line-height: 1.4;
   }
 }
 
@@ -645,6 +680,12 @@
   line-height: 1;
   margin-bottom: 5px;
   text-align: left;
+}
+
+@media (max-width: 1400px) {
+  .tab2 .case-text-slider-wrapper .case-text-content .case-body h5 {
+    font-size: 24px;
+  }
 }
 
 .tab2 .case-text-slider-wrapper .case-text-content .case-number {
@@ -670,6 +711,12 @@
   margin-bottom: 0;
 }
 
+@media (max-width: 1400px) {
+  .tab2 .case-text-slider-wrapper .case-text-content .case-number-item h5 {
+    font-size: 35px;
+  }
+}
+
 .tab2 .case-text-slider-wrapper .case-text-content .case-number-item p {
   font-family: 'Averta';
   font-style: normal;
@@ -682,6 +729,12 @@
 @media (max-width: 1600px) {
   .tab2 .case-text-slider-wrapper .case-text-content .case-number-item p {
     font-size: 16px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .tab2 .case-text-slider-wrapper .case-text-content .case-number-item p {
+    font-size: 14px;
   }
 }
 

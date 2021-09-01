@@ -148,6 +148,10 @@ $dark-cream: #cea35b;
                 width: 100%;
                 height: auto;
             }
+
+            @media(max-width: 1600px) {
+                right: 5%;
+            }
         }
 
         .v-swiper-button-prev {
@@ -229,11 +233,33 @@ $dark-cream: #cea35b;
                             @media (max-width:1600px) {
                                 font-size: 40px;
                             }
+
+                            @media (max-width: 1400px) {
+                                font-size: 35px;
+                            }
                         }
 
                         @media (max-width:1600px) {
                             font-size: 30px;
                         }
+
+                        @media (max-width: 1400px) {
+                            font-size: 25px;
+                        }
+                    }
+                }
+
+                &-logo {
+                    max-width: 98px;
+
+                    img {
+                        width: 100%;
+                        height: auto;
+                        display: block;
+                    }
+
+                    @media (max-width: 1400px) {
+                        max-width: 80px
                     }
                 }
             }
@@ -256,7 +282,8 @@ $dark-cream: #cea35b;
                     }
 
                     @media (max-width: 1400px) {
-                        font-size: 14px;
+                        font-size: 12px;
+                        line-height: 1.4;
                     }
                 }
 
@@ -269,6 +296,10 @@ $dark-cream: #cea35b;
                     line-height: 1;
                     margin-bottom: 5px;
                     text-align: left;
+
+                    @media (max-width: 1400px) {
+                        font-size: 24px;
+                    }
                 }
             }
 
@@ -287,6 +318,10 @@ $dark-cream: #cea35b;
                         font-size: 45px;
                         line-height: 1;
                         margin-bottom: 0;
+
+                        @media (max-width: 1400px) {
+                            font-size: 35px;
+                        }
                     }
 
                     p {
@@ -299,6 +334,10 @@ $dark-cream: #cea35b;
 
                         @media (max-width:1600px) {
                             font-size: 16px;
+                        }
+
+                        @media (max-width: 1400px) {
+                            font-size: 14px;
                         }
                     }
                 }
