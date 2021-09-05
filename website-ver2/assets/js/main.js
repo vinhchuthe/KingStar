@@ -30,7 +30,7 @@ $(document).ready(function () {
         // Optional parameters
         loop: true,
         slidesPerView: 3,
-        spaceBetween: 20,
+        // spaceBetween: 20,
         observer: true,
         observeParents: true,
         autoplay: {
@@ -55,19 +55,24 @@ $(document).ready(function () {
     const swiper5 = new Swiper('#brand-slide', {
         // Optional parameters
         loop: true,
-        slidesPerView: 5,
+        slidesPerView: 3,
         observer: true,
         observeParents: true,
         autoplay: {
             delay: 2500,
             disableOnInteraction: false,
         },
+        breakpoints: {
+            900: {
+                slidesPerView: 5,
+            },
+        }
     });
 
     const swiper6 = new Swiper('#social-slide', {
         // Optional parameters
         loop: true,
-        slidesPerView: 5,
+        slidesPerView: 3,
         observer: true,
         observeParents: true,
         spaceBetween: 10,
@@ -76,29 +81,14 @@ $(document).ready(function () {
             disableOnInteraction: false,
         },
         breakpoints: {
+            1024: {
+                slidesPerView: 5,
+            },
             1600: {
                 slidesPerView: 6,
             },
         }
     });
-
-    // var height = $(".v-tab-content .content-active").outerHeight(true);
-    // $(".v-tab-content").height(height);
-
-    // $(".v-tab .tab-item").click(function () {
-    //     var data = $(this).attr('data-id');
-    //     $(".v-tab .tab-item").removeClass('tab-active');
-    //     $(".v-tab-content .tab-content").removeClass("content-active");
-    //     $(".v-tab-content .tab-content").removeClass("reveal");
-    //     $(this).addClass('tab-active');
-    //     $("#" + data).addClass('reveal');
-
-    //     setTimeout(function () {
-    //         $("#" + data).addClass('content-active');
-    //         var height = $(".v-tab-content .content-active").outerHeight(true);
-    //         $(".v-tab-content").height(height);
-    //     }, 200);
-    // });
 
     $('#homeTab a').on('click', function (event) {
         event.preventDefault()

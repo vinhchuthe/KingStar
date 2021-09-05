@@ -50,6 +50,14 @@ $dark-cream: #cea35b;
         @media (max-width: 1400px) {
             font-size: 35px;
         }
+
+        @media (max-width: 1100px) {
+            font-size: 30px;
+        }
+
+        @media (max-width: 800px) {
+            margin-bottom: 60px;
+        }
     }
 
     p {
@@ -63,6 +71,10 @@ $dark-cream: #cea35b;
 
         @media (max-width: 1400px) {
             font-size: 16px;
+        }
+
+        @media (max-width: 1200px) {
+            font-size: 14px;
         }
     }
 
@@ -91,6 +103,10 @@ $dark-cream: #cea35b;
                 @media (max-width: 1400px) {
                     font-size: 75px;
                 }
+
+                @media (max-width: 1200px) {
+                    font-size: 65px;
+                }
             }
 
             .social-name {
@@ -102,6 +118,10 @@ $dark-cream: #cea35b;
 
                 @media (max-width: 1400px) {
                     font-size: 24px;
+                }
+
+                @media (max-width: 1200px) {
+                    font-size: 22px;
                 }
             }
         }
@@ -230,6 +250,14 @@ $dark-cream: #cea35b;
                     margin-bottom: 5px;
                     margin-left: 10px;
                     text-align: left;
+
+                    @media (max-width: 1200px) {
+                        font-size: 20px;
+                    }
+                }
+
+                @media (max-width: 1200px) {
+                    font-size: 65px;
                 }
             }
 
@@ -253,6 +281,10 @@ $dark-cream: #cea35b;
 
                 @media (max-width: 1400px) {
                     font-size: 16px;
+                }
+
+                @media (max-width: 1200px) {
+                    font-size: 14px;
                 }
             }
 
@@ -300,6 +332,11 @@ $dark-cream: #cea35b;
                     line-height: 1.1;
                     margin-bottom: 40px;
                     text-align: center;
+
+                    @media (max-width: 1200px) {
+                        font-size: 25px;
+                        margin-bottom: 20px;
+                    }
                 }
             }
 
