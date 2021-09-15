@@ -500,10 +500,12 @@ $dark-cream: #cea35b;
         margin-bottom: 50px;
 
         img {
+            margin: auto;
+
             @media (max-width: 767px) {
                 width: auto;
                 height: 65px;
-                margin: auto;
+                // margin: auto;
             }
         }
     }

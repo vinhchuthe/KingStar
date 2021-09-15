@@ -626,11 +626,14 @@
   margin-bottom: 50px;
 }
 
+.tab-content .tab-content-title img {
+  margin: auto;
+}
+
 @media (max-width: 767px) {
   .tab-content .tab-content-title img {
     width: auto;
     height: 65px;
-    margin: auto;
   }
 }
 
