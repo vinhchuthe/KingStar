@@ -108,9 +108,3 @@ $(document).ready(function () {
         return false;
     });
 });
-
-if ($(window).width() >= 768) {
-    var scene = document.getElementById('scene');
-    var parallaxInstance = new Parallax(scene);
-}
-

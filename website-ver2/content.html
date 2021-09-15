@@ -406,6 +406,14 @@
     <script src="./assets/js/swiper-bundle.min.js"></script>
     <script src="./assets/js/parallax.js"></script>
     <script src="./assets/js/main.js"></script>
+    <script>
+        $(document).ready(function () {
+            if ($(window).width() >= 768) {
+                var scene = document.getElementById('scene');
+                var parallaxInstance = new Parallax(scene);
+            } else {}
+        });
+    </script>
 </body>
 
 </html>
