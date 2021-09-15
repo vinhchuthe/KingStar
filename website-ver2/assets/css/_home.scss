@@ -225,10 +225,22 @@ $dark-cream: #cea35b;
             img {
                 width: 100%;
                 height: auto;
+
+                @media (max-width: 767px) {
+                    filter: brightness(3) contrast(2.9) grayscale(1) hue-rotate(360deg) saturate(0);
+                }
             }
 
             @media(max-width: 1600px) {
                 right: 5%;
+            }
+
+            @media (max-width: 767px) {
+                top: unset;
+                width: 4%;
+                right: 40%;
+                bottom: 20px;
+                transform: translate(-50%, 0);
             }
         }
 
@@ -244,6 +256,18 @@ $dark-cream: #cea35b;
                 width: 100%;
                 height: auto;
                 transform: rotate(180deg);
+
+                @media (max-width: 767px) {
+                    filter: brightness(3) contrast(2.9) grayscale(1) hue-rotate(360deg) saturate(0);
+                }
+            }
+
+            @media (max-width: 767px) {
+                top: unset;
+                width: 4%;
+                left: 40%;
+                bottom: 20px;
+                transform: translate(-50%, 0);
             }
         }
 
@@ -258,6 +282,7 @@ $dark-cream: #cea35b;
         @media (max-width: 767px) {
             height: 100%;
             flex-direction: column;
+            padding-bottom: 30px;
         }
     }
 
