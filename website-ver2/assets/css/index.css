@@ -2042,7 +2042,6 @@
 .tab6 .gallery .gallery-col img {
   width: 100%;
   height: auto;
-  display: block;
 }
 
 .tab6 .gallery .gallery-col:nth-child(2), .tab6 .gallery .gallery-col:nth-child(4) {
